@@ -8,11 +8,9 @@
                             <a href="{{route('home')}}" class="transition-all duration-[0.3s] ease-in-out font-Poppins font-light text-[14px] text-[#fff] leading-[28px] tracking-[0.03rem]">Mon - Sat 11:00AM - 6:30PM</a>
                         </div>
                         <div class="col-right-bar flex">
+
                             <div class="cols px-[12px]">
-                                <a href="faq.html" class="transition-all duration-[0.3s] ease-in-out font-Poppins text-[14px] text-[#fff] font-light leading-[28px] tracking-[0.03rem]">Help?</a>
-                            </div>
-                            <div class="cols px-[12px]">
-                                <a href="faq.html" class="transition-all duration-[0.3s] ease-in-out font-Poppins text-[14px] text-[#fff] font-light leading-[28px] tracking-[0.03rem]">Call Back Request</a>
+                                <a href="{{route('contactUs)}}" class="transition-all duration-[0.3s] ease-in-out font-Poppins text-[14px] text-[#fff] font-light leading-[28px] tracking-[0.03rem]">Call Back Request</a>
                             </div>
                         </div>
                     </div>
