@@ -25,27 +25,32 @@
                 <div class="w-full px-[12px]">
                     <div class="section-title mb-[20px] pb-[20px] relative flex flex-col items-center text-center max-[991px]:pb-[0]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                         <div class="section-detail max-[991px]:mb-[12px]">
-                            <h2 class="bb-title font-quicksand mb-[0] p-[0] text-[25px] font-bold text-[#3d4750] relative inline capitalize leading-[1] tracking-[0.03rem] max-[767px]:text-[23px]">Get In <span class="text-primary">Touch</span></h2>
-                            <p class="font-Poppins max-w-[400px] mt-[10px] text-[14px] text-[#686e7d] leading-[18px] font-light tracking-[0.03rem] max-[991px]:mx-[auto]">Please select a topic below related to you inquiry. If you don't fint what you need, fill
+                            <h2 class="bb-title font-quicksand mb-[0] p-[0] text-[25px] font-bold text-[#fff] relative inline capitalize leading-[1] tracking-[0.03rem] max-[767px]:text-[23px]">Get In <span class="text-primary">Touch</span></h2>
+                            <p class="font-Poppins max-w-[400px] mt-[10px] text-[14px] text-[#fff]/80 leading-[18px] font-light tracking-[0.03rem] max-[991px]:mx-[auto]">Please select a topic below related to you inquiry. If you don't fint what you need, fill
                                 out our contact form.</p>
                         </div>
                     </div>
                 </div>
                 <div class="min-[992px]:w-[50%] w-full px-[12px] mb-[24px]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                    <div class="bb-contact-form border-[1px] border-solid border-[#eee] rounded-[20px] p-[30px]">
+                    <div class="bb-contact-form border-[1px] border-solid border-[#eee] bg-[#f8f8fb] rounded-[20px] p-[30px]">
                         <form>
                             <div class="bb-contact-wrap mb-[24px]">
+                                <label for="">First Name</label>
                                 <input type="text" name="firstname" placeholder="Enter Your First Name" class="w-full h-[50px] py-[10px] pl-[15px] pr-[10px] border-[1px] border-solid border-[#eee] outline-[0] text-[14px] font-normal text-[#686e7d] rounded-[10px]">
                             </div>
                             <div class="bb-contact-wrap mb-[24px]">
+                                <label for="">Last Name</label>
                                 <input type="text" name="lastname" placeholder="Enter Your Last Name" class="w-full h-[50px] py-[10px] pl-[15px] pr-[10px] border-[1px] border-solid border-[#eee] outline-[0] text-[14px] font-normal text-[#686e7d] rounded-[10px]">
                             </div>
                             <div class="bb-contact-wrap mb-[24px]">
+                                <label for="">Email</label>
                                 <input type="email" name="email" placeholder="Enter Your Email" class="w-full h-[50px] py-[10px] pl-[15px] pr-[10px] border-[1px] border-solid border-[#eee] outline-[0] text-[14px] font-normal text-[#686e7d] rounded-[10px]">
                             </div>
                             <div class="bb-contact-wrap mb-[24px]">
+                                <label for="">Phone</label>
                                 <input type="text" name="phonenumber" placeholder="Enter Your Phone Number" class="w-full h-[50px] py-[10px] pl-[15px] pr-[10px] border-[1px] border-solid border-[#eee] outline-[0] text-[14px] font-normal text-[#686e7d] rounded-[10px]">
                             </div>
+                            <label for="">Address</label>
                             <div class="bb-contact-wrap mb-[24px]">
                                 <textarea name="address" placeholder="Please leave your comments here.." class="w-full h-[150px] py-[10px] pl-[15px] pr-[10px] border-[1px] border-solid border-[#eee] outline-[0] text-[14px] font-normal text-[#686e7d] rounded-[10px]"></textarea>
                             </div>

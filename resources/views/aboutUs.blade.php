@@ -32,12 +32,12 @@
                     <div class="bb-about-contact h-full flex flex-col justify-center">
                         <div class="section-title pb-[12px] px-[12px] flex justify-start max-[991px]:flex-col max-[991px]:justify-center max-[991px]:text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                             <div class="section-detail max-[991px]:mb-[12px]">
-                                <h2 class="bb-title font-quicksand tracking-[0.03rem] mb-[0] p-[0] text-[25px] font-bold text-[#3d4750] inline capitalize leading-[1] max-[767px]:text-[23px]">Mahesh <span class="text-primary">Refrigeration</span>  Company Founder by Mahesh Kalra in year 1988</h2>
+                                <h2 class="bb-title font-quicksand tracking-[0.03rem] mb-[0] p-[0] text-[25px] font-bold text-[#fff] inline capitalize leading-[1] max-[767px]:text-[23px]">Mahesh <span class="text-primary">Refrigeration</span>  Company Founder by Mahesh Kalra in year 1988</h2>
                             </div>
                         </div>
                         <div class="about-inner-contact px-[12px] mb-[14px]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                            <h4 class="font-quicksand tracking-[0.03rem] leading-[1.2] mb-[20px] text-[18px] text-[#3d4750] font-bold italic">About Our Company</h4>
-                            <p class="font-Poppins mb-[16px] text-[14px] text-[#686e7d] font-light leading-[28px] tracking-[0.03rem]">We are Leading supplier of wide range of commercial refrigeration equipment's. We are a multi-dimensional team of experts catering to the most celebrated names in the industry. Our primary objective is to offer value-added consultancy services and supplying quality equipment's to various industries like Hotels, Restaurants, Hospitality, Clubs, Food Outlets and Educational Institutions. We have main Distributor in India for Carrier , Emerson and Bitzer</p>
+                            <h4 class="font-quicksand tracking-[0.03rem] leading-[1.2] mb-[20px] text-[18px] text-[#fff]/90 font-bold italic">About Our Company</h4>
+                            <p class="font-Poppins mb-[16px] text-[14px] text-[#fff]/80 font-light leading-[28px] tracking-[0.03rem]">We are Leading supplier of wide range of commercial refrigeration equipment's. We are a multi-dimensional team of experts catering to the most celebrated names in the industry. Our primary objective is to offer value-added consultancy services and supplying quality equipment's to various industries like Hotels, Restaurants, Hospitality, Clubs, Food Outlets and Educational Institutions. We have main Distributor in India for Carrier , Emerson and Bitzer</p>
 
                         </div>
                     </div>
@@ -120,12 +120,12 @@
                     <div class="bb-about-contact h-full flex flex-col justify-center">
                         <div class="section-title pb-[12px] px-[12px] flex justify-start max-[991px]:flex-col max-[991px]:justify-center max-[991px]:text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                             <div class="section-detail max-[991px]:mb-[12px]">
-                                <h2 class="bb-title font-quicksand tracking-[0.03rem] mb-[0] p-[0] text-[25px] font-bold text-[#3d4750] inline capitalize leading-[1] max-[767px]:text-[23px]">Efficient <span class="text-primary">Solutions</span>For Your Application </h2>
+                                <h2 class="bb-title font-quicksand tracking-[0.03rem] mb-[0] p-[0] text-[25px] font-bold text-[#fff] inline capitalize leading-[1] max-[767px]:text-[23px]">Efficient <span class="text-primary">Solutions</span>For Your Application </h2>
                             </div>
                         </div>
                         <div class="about-inner-contact px-[12px] mb-[14px]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                            <h4 class="font-quicksand tracking-[0.03rem] leading-[1.2] mb-[20px] text-[18px] text-[#3d4750] font-bold italic">The Perfect Match for Air Conditioning</h4>
-                            <p class="font-Poppins mb-[16px] text-[14px] text-[#686e7d] font-light leading-[28px] tracking-[0.03rem]">The challenges within the refrigeration and air-conditioning industry are diverse, which is why the solutions must be, too. With its large portfolio of products and services, Mahesh Refrigeration Company offers the right solutions for any application. As we spend more and more time indoors, we become more reliant on our air handling systems to deliver optimal indoor climate A modern air handling unit, with active and/or passive heat recovery, increases air flow, keeps the indoor temperature at a comfortable level and uses a minimum of energy.</p>
+                            <h4 class="font-quicksand tracking-[0.03rem] leading-[1.2] mb-[20px] text-[18px] text-[#fff]/90 font-bold italic">The Perfect Match for Air Conditioning</h4>
+                            <p class="font-Poppins mb-[16px] text-[14px] text-[#fff]/80 font-light leading-[28px] tracking-[0.03rem]">The challenges within the refrigeration and air-conditioning industry are diverse, which is why the solutions must be, too. With its large portfolio of products and services, Mahesh Refrigeration Company offers the right solutions for any application. As we spend more and more time indoors, we become more reliant on our air handling systems to deliver optimal indoor climate A modern air handling unit, with active and/or passive heat recovery, increases air flow, keeps the indoor temperature at a comfortable level and uses a minimum of energy.</p>
 
                         </div>
 

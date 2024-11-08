@@ -1,4 +1,4 @@
-<footer class="bb-footer mt-[50px] max-[1199px]:mt-[35px] bg-[#f8f8fb] text-[#fff]">
+<footer class="bb-footer max-[1199px]:mt-[35px] bg-[#dff0ea] text-[#fff]">
     <div class="footer-container border-t-[1px] border-solid border-[#eee]">
         <div class="footer-top py-[50px] max-[1199px]:py-[35px]">
             <div class="flex flex-wrap justify-between relative items-center mx-auto min-[1400px]:max-w-[1320px] min-[1200px]:max-w-[1140px] min-[992px]:max-w-[960px] min-[768px]:max-w-[720px] min-[576px]:max-w-[540px]">
@@ -18,13 +18,13 @@
                                         <a href="{{route('home')}}" class="transition-all duration-[0.3s] ease-in-out font-Poppins text-[14px] leading-[20px] text-[#686e7d] hover:text-primary mb-[0] inline-block break-all tracking-[0] font-normal">Home</a>
                                     </li>
                                     <li class="bb-footer-link leading-[1.5] flex items-center mb-[16px] max-[991px]:mb-[15px]">
-                                        <a href="shop-banner-left-sidebar-col-3.html" class="transition-all duration-[0.3s] ease-in-out font-Poppins text-[14px] leading-[20px] text-[#686e7d] hover:text-primary mb-[0] inline-block break-all tracking-[0] font-normal">Products</a>
+                                        <a href="#" class="transition-all duration-[0.3s] ease-in-out font-Poppins text-[14px] leading-[20px] text-[#686e7d] hover:text-primary mb-[0] inline-block break-all tracking-[0] font-normal">Products</a>
                                     </li>
                                     <li class="bb-footer-link leading-[1.5] flex items-center mb-[16px] max-[991px]:mb-[15px]">
                                         <a href="{{route('blog')}}" class="transition-all duration-[0.3s] ease-in-out font-Poppins text-[14px] leading-[20px] text-[#686e7d] hover:text-primary mb-[0] inline-block break-all tracking-[0] font-normal">Blogs</a>
                                     </li>
                                     <li class="bb-footer-link leading-[1.5] flex items-center mb-[16px] max-[991px]:mb-[15px]">
-                                        <a href="shop-list-left-sidebar.html" class="transition-all duration-[0.3s] ease-in-out font-Poppins text-[14px] leading-[20px] text-[#686e7d] hover:text-primary mb-[0] inline-block break-all tracking-[0] font-normal">Solution</a>
+                                        <a href="#" class="transition-all duration-[0.3s] ease-in-out font-Poppins text-[14px] leading-[20px] text-[#686e7d] hover:text-primary mb-[0] inline-block break-all tracking-[0] font-normal">Solution</a>
                                     </li>
                                     <li class="bb-footer-link leading-[1.5] flex items-center mb-[16px] max-[991px]:mb-[15px]">
                                         <a href="{{route('download',['type'=>'technicalDataSheet'])}}" class="transition-all duration-[0.3s] ease-in-out font-Poppins text-[14px] leading-[20px] text-[#686e7d] hover:text-primary mb-[0] inline-block break-all tracking-[0] font-normal">Download</a>
@@ -57,10 +57,10 @@
                             <div class="bb-footer-links bb-footer-dropdown hidden max-[991px]:mb-[35px]">
                                 <ul class="align-items-center">
                                     <li class="bb-footer-link leading-[1.5] flex items-center mb-[16px] max-[991px]:mb-[15px]">
-                                        <a href="login.html" class="transition-all duration-[0.3s] ease-in-out font-Poppins text-[14px] leading-[20px] text-[#686e7d] hover:text-primary mb-[0] inline-block break-all tracking-[0] font-normal">Disclaimer</a>
+                                        <a href="#" class="transition-all duration-[0.3s] ease-in-out font-Poppins text-[14px] leading-[20px] text-[#686e7d] hover:text-primary mb-[0] inline-block break-all tracking-[0] font-normal">Disclaimer</a>
                                     </li>
                                     <li class="bb-footer-link leading-[1.5] flex items-center mb-[16px] max-[991px]:mb-[15px]">
-                                        <a href="cart.html" class="transition-all duration-[0.3s] ease-in-out font-Poppins text-[14px] leading-[20px] text-[#686e7d] hover:text-primary mb-[0] inline-block break-all tracking-[0] font-normal">Terms & Conditions</a>
+                                        <a href="3" class="transition-all duration-[0.3s] ease-in-out font-Poppins text-[14px] leading-[20px] text-[#686e7d] hover:text-primary mb-[0] inline-block break-all tracking-[0] font-normal">Terms & Conditions</a>
                                     </li>
                                 </ul>
                             </div>
@@ -84,19 +84,19 @@
                                                 <span class="w-[25px] basis-[auto] grow-[0] shrink-[0]">
                                                     <i class="fa fa-phone leading-[0] text-[18px] text-primary"></i>
                                                 </span>
-                                            <a href="tel:+******5761" class="transition-all duration-[0.3s] ease-in-out font-Poppins text-[14px] leading-[20px] text-[#686e7d] inline-block relative break-all tracking-[0] font-normal max-[1399px]:text-[15px] max-[1199px]:text-[14px]">******5761</a>
+                                            <a href="tel:+98140-25761" class="transition-all duration-[0.3s] ease-in-out font-Poppins text-[14px] leading-[20px] text-[#686e7d] inline-block relative break-all tracking-[0] font-normal max-[1399px]:text-[15px] max-[1199px]:text-[14px]">+91 98140-25761</a>
                                         </li>
                                         <li class="bb-footer-link bb-foo-call flex items-start max-[991px]:mb-[15px] mb-[16px]">
                                                 <span class="w-[25px] basis-[auto] grow-[0] shrink-[0]">
                                                     <i class="fa-brands fa-whatsapp leading-[0] text-[18px] text-primary"></i>
                                                 </span>
-                                            <a href="tel:+******5761" class="transition-all duration-[0.3s] ease-in-out font-Poppins text-[14px] leading-[20px] text-[#686e7d] inline-block relative break-all tracking-[0] font-normal max-[1399px]:text-[15px] max-[1199px]:text-[14px]">******5761</a>
+                                            <a href="tel:+98140-25761" class="transition-all duration-[0.3s] ease-in-out font-Poppins text-[14px] leading-[20px] text-[#686e7d] inline-block relative break-all tracking-[0] font-normal max-[1399px]:text-[15px] max-[1199px]:text-[14px]">+91 98140-25761</a>
                                         </li>
                                         <li class="bb-footer-link bb-foo-mail flex">
                                                 <span class="w-[25px] basis-[auto] grow-[0] shrink-[0]">
                                                     <i class="fa fa-envelope leading-[0] text-[18px] text-primary"></i>
                                                 </span>
-                                            <a href="mailto:***************************.com" class="transition-all duration-[0.3s] ease-in-out font-Poppins text-[14px] leading-[20px] text-[#686e7d] inline-block relative break-all tracking-[0] font-normal max-[1399px]:text-[15px] max-[1199px]:text-[14px]">***************************.com</a>
+                                            <a href="mailto:maheshrefrigerationco@gmail.com" class="transition-all duration-[0.3s] ease-in-out font-Poppins text-[14px] leading-[20px] text-[#686e7d] inline-block relative break-all tracking-[0] font-normal max-[1399px]:text-[15px] max-[1199px]:text-[14px]">maheshrefrigerationco@gmail.com</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -125,14 +125,14 @@
                         <div class="footer-copy max-[991px]:mb-[15px]">
                             <div class="footer-bottom-copy max-[991px]:text-center">
                                 <div class="bb-copy text-[#686e7d] text-[13px] tracking-[1px] text-center font-normal leading-[2]">Copyright © <span class="text-[#686e7d] text-[13px] tracking-[1px] text-center font-normal" id="copyright_year"></span>
-                                    <a class="site-name transition-all duration-[0.3s] ease-in-out font-medium text-primary hover:text-[#3d4750] font-Poppins text-[15px] leading-[28px] tracking-[0.03rem]" href="{{route('home')}}">Mahesh Refrigeration Co..</a> all rights reserved.
+                                    <a class="site-name transition-all duration-[0.3s] ease-in-out font-medium text-[#3d4750] font-Poppins text-[15px] leading-[28px] tracking-[0.03rem]" href="{{route('home')}}">Mahesh Refrigeration Co..</a> all rights reserved.
                                 </div>
                             </div>
                         </div>
                         <div class="footer-copy max-[991px]:mb-[15px]">
                             <div class="footer-bottom-copy max-[991px]:text-center">
                                 <div class="bb-copy text-[#686e7d] text-[13px] tracking-[1px] text-center font-normal leading-[2]">Developed by <span class="text-[#686e7d] text-[13px] tracking-[1px] text-center font-normal" id="copyright_year"></span>
-                                    <a class="site-name transition-all duration-[0.3s] ease-in-out font-medium text-primary hover:text-[#3d4750] font-Poppins text-[15px] leading-[28px] tracking-[0.03rem]" target="_blank" href="https://himsoftsolution.com">Him Soft Solution</a>
+                                    <a class="site-name transition-all duration-[0.3s] ease-in-out font-medium text-[#3d4750] font-Poppins text-[15px] leading-[28px] tracking-[0.03rem]" target="_blank" href="https://himsoftsolution.com">Him Soft Solution</a>
                                 </div>
                             </div>
                         </div>
