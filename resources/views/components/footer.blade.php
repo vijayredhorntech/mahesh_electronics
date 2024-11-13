@@ -90,7 +90,7 @@
                                                 <span class="w-[25px] basis-[auto] grow-[0] shrink-[0]">
                                                     <i class="fa-brands fa-whatsapp leading-[0] text-[18px] text-primary"></i>
                                                 </span>
-                                            <a href="tel:+98140-25761" class="transition-all duration-[0.3s] ease-in-out font-Poppins text-[14px] leading-[20px] text-[#686e7d] inline-block relative break-all tracking-[0] font-normal max-[1399px]:text-[15px] max-[1199px]:text-[14px]">+91 98140-25761</a>
+                                            <a href="https://wa.me/919814025761" class="transition-all duration-[0.3s] ease-in-out font-Poppins text-[14px] leading-[20px] text-[#686e7d] inline-block relative break-all tracking-[0] font-normal max-[1399px]:text-[15px] max-[1199px]:text-[14px]">+91 98140-25761</a>
                                         </li>
                                         <li class="bb-footer-link bb-foo-mail flex">
                                                 <span class="w-[25px] basis-[auto] grow-[0] shrink-[0]">

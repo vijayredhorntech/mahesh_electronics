@@ -62,7 +62,7 @@
                 </div>
                 <div class="min-[992px]:w-[50%] w-full px-[12px] mb-[24px]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
                     <div class="bb-contact-maps sticky top-[0]">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8466.070686794481!2d76.825362!3d30.636334000000005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390feb3311bffff9%3A0x6ad0d608f32a4b2!2sBest%20Price%20Flipkart%20Wholesale!5e1!3m2!1sen!2sus!4v1730982531039!5m2!1sen!2sus"
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4233.052750219673!2d76.82294421099041!3d30.635936182092216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390feb2b1de96f01%3A0x3d78c1834d5f8c02!2sMahesh%20Refrigeration%20Company!5e1!3m2!1sen!2sin!4v1731482458525!5m2!1sen!2sin"
                                 loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full h-[577px] mb-[-10px] rounded-[20px] border-[0]"></iframe>
                     </div>
                 </div>

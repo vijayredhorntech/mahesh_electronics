@@ -29,7 +29,6 @@
                                 <img src="{{asset('assets/images/blogs/blog1.png')}}" alt="blog-1" class="w-full rounded-tl-[20px] rounded-tr-[20px]">
                             </div>
                             <div class="blog-contact p-[20px]">
-                                <p class="font-Poppins tracking-[0.03rem] mb-[12px] text-[14px] leading-[26px] font-light">9th March, 2020 | by <span class="underline text-primary">Admin</span></p>
 
                                 <h5 class="mb-[12px] text-[18px] leading-[1.2]"><a href="{{route('blogDetail',['id'=>1])}}" class="font-Poppins leading-[28px] tracking-[0.03rem] text-[18px] font-medium text-[#3d4750]">Bitzer LH104E/4DES-7Y Condensing Unit</a></h5>
                                 <p class="font-Poppins tracking-[0.03rem] mb-[12px] text-[14px] leading-[26px] font-light">Made in Germany. Lowest price and readily available in Chandigarh, Punjab, Haryana, Rajasthan, Mumba....</p>
@@ -45,9 +44,8 @@
                                 <img src="{{asset('assets/images/blogs/blog2.jpeg')}}" alt="blog-1" class="w-full rounded-tl-[20px] rounded-tr-[20px]">
                             </div>
                             <div class="blog-contact p-[20px]">
-                                <p class="font-Poppins tracking-[0.03rem] mb-[12px] text-[14px] leading-[26px] font-light">19th February, 2020  | by <span class="underline text-primary">Admin</span></p>
 
-                                <h5 class="mb-[12px] text-[18px] leading-[1.2]"><a href="{{route('blogDetail',['id'=>2])}}" class="font-Poppins leading-[28px] tracking-[0.03rem] text-[18px] font-medium text-[#3d4750]">Bitzer condensing Unit in Chandigarh</a></h5>
+                                <h5 class="mb-[12px] text-[18px] leading-[1.2]"><a href="{{route('blogDetail',['id'=>2])}}" class="font-Poppins leading-[28px] tracking-[0.03rem] text-[18px] font-medium text-[#3d4750]">Bitzer compressor in Chandigarh</a></h5>
                                 <p class="font-Poppins tracking-[0.03rem] mb-[12px] text-[14px] leading-[26px] font-light">We are leading distributor of all types of bitzer products in India. If you are....</p>
                                 <div class="blog-btn flex">
                                     <a href="{{route('blogDetail',['id'=>2])}}" class="bb-btn-2 transition-all duration-[0.3s] ease-in-out font-Poppins leading-[28px] tracking-[0.03rem] py-[2px] px-[14px] text-[14px] font-normal text-[#fff] bg-primary rounded-[10px] border-[1px] border-solid border-primary hover:bg-transparent hover:border-[#3d4750] hover:text-white">Read More</a>
@@ -61,7 +59,6 @@
                                 <img src="{{asset('assets/images/blogs/blog2.jpeg')}}" alt="blog-1" class="w-full rounded-tl-[20px] rounded-tr-[20px]">
                             </div>
                             <div class="blog-contact p-[20px]">
-                                <p class="font-Poppins tracking-[0.03rem] mb-[12px] text-[14px] leading-[26px] font-light">15th May, 2019 | by <span class="underline text-primary">Admin</span></p>
 
                                 <h5 class="mb-[12px] text-[18px] leading-[1.2]"><a href="{{route('blogDetail',['id'=>3])}}" class="font-Poppins leading-[28px] tracking-[0.03rem] text-[18px] font-medium text-[#3d4750]">Bitzer compressor distributor in chennai</a></h5>
                                 <p class="font-Poppins tracking-[0.03rem] mb-[12px] text-[14px] leading-[26px] font-light">We are leading distributor of all types of bitzer products in India. If you are .....</p>
@@ -77,7 +74,6 @@
                                 <img src="{{asset('assets/images/blogs/blog1.png')}}" alt="blog-1" class="w-full rounded-tl-[20px] rounded-tr-[20px]">
                             </div>
                             <div class="blog-contact p-[20px]">
-                                <p class="font-Poppins tracking-[0.03rem] mb-[12px] text-[14px] leading-[26px] font-light">22nd March, 2019 | by <span class="underline text-primary">Admin</span></p>
 
                                 <h5 class="mb-[12px] text-[18px] leading-[1.2]"><a href="{{route('blogDetail',['id'=>4])}}" class="font-Poppins leading-[28px] tracking-[0.03rem] text-[18px] font-medium text-[#3d4750]">Bitzer condensing Unit in ludhaina</a></h5>
                                 <p class="font-Poppins tracking-[0.03rem] mb-[12px] text-[14px] leading-[26px] font-light">The compact and robust structural shape of the bitzer condensing units ....</p>
