@@ -45,31 +45,55 @@
                                     <p class="mb-[16px] font-Poppins text-[15px] text-[#686e7d] font-light leading-[28px] tracking-[0.03rem]">Enter your details in the form and we will call you back.</p>
 
                                 </div>
-                                <form >
-                                    <div class="flex flex-wrap mx-[-12px]">
-                                        <div class=" w-full px-[12px]">
-                                            <div class="bb-details-input mb-[24px]">
-                                                <input type="text" placeholder="Enter Your Name" class="w-full p-[10px] text-[14px] font-normal text-[#686e7d] border-[1px] border-solid border-[#eee] outline-[0] leading-[26px] rounded-[10px]">
-                                            </div>
+                                @if(session('success'))
+                                    <div class="w-full mb-[24px]">
+                                        <div class="bg-success border border-green-400 text-white px-4 py-3 rounded relative text-center" role="alert">
+                                            <span class="block sm:inline">{{ session('success') }}</span>
                                         </div>
-                                        <div class=" w-full px-[12px]">
-                                            <div class="bb-details-input mb-[24px]">
-                                                <input type="phone" placeholder="Enter Your Phone" class="w-full p-[10px] text-[14px] font-normal text-[#686e7d] border-[1px] border-solid border-[#eee] outline-[0] leading-[26px] rounded-[10px]">
-                                            </div>
+                                    </div>
+                                @endif
+
+                                @if(session('error'))
+                                    <div class="w-full mb-[24px]">
+                                        <div class="bg-danger border border-red-400 text-white px-4 py-3 rounded relative text-center" role="alert">
+                                            <span class="block sm:inline">{{ session('error') }}</span>
                                         </div>
-                                        <div class=" w-full px-[12px]">
-                                            <div class="bb-details-input mb-[24px]">
-                                                <input type="email" placeholder="Enter Your Email" class="w-full p-[10px] text-[14px] font-normal text-[#686e7d] border-[1px] border-solid border-[#eee] outline-[0] leading-[26px] rounded-[10px]">
-                                            </div>
-                                        </div>
-                                        <div class="w-full px-[12px]">
-                                            <div class="bb-details-input mb-[24px]">
-                                                <textarea placeholder="Message" class="w-full h-[200px] p-[10px] text-[14px] font-normal text-[#686e7d] border-[1px] border-solid border-[#eee] outline-[0] rounded-[10px]"></textarea>
-                                            </div>
-                                        </div>
-                                        <div class="w-full px-[12px]">
-                                                <button class="bb-btn-2 w-full transition-all duration-[0.3s] ease-in-out font-Poppins leading-[28px] tracking-[0.03rem] p-4 text-[14px] font-normal text-[#fff] bg-primary rounded-[10px] border-[1px] border-solid border-[#6c7fd8] hover:bg-transparent hover:border-[#3d4750] hover:text-[#3d4750]">CALL ME BACK</button>
-                                        </div>
+                                    </div>
+                                @endif
+                                <form action="{{route('contactUsPost')}}" method="post">
+                                    @csrf
+                                    <div class="bb-contact-wrap mt-[24px]">
+                                        <label for="">First Name</label>
+                                        <input type="text" name="name" value="{{ old('name') }}" placeholder="Enter Your First Name" class="w-full h-[50px] py-[10px] pl-[15px] pr-[10px] border-[1px] border-solid border-[#eee] outline-[0] text-[14px] font-normal text-[#686e7d] rounded-[10px]">
+                                        @error('name')
+                                        <span class="text-danger">*{{$message}}</span>
+                                        @enderror
+
+                                    </div>
+                                    <div class="bb-contact-wrap mt-[24px]">
+                                        <label for="">Last Name</label>
+                                        <input type="text" name="lastname" value="{{ old('lastname') }}" placeholder="Enter Your Last Name" class="w-full h-[50px] py-[10px] pl-[15px] pr-[10px] border-[1px] border-solid border-[#eee] outline-[0] text-[14px] font-normal text-[#686e7d] rounded-[10px]">
+                                    </div>
+                                    <div class="bb-contact-wrap mt-[24px]">
+                                        <label for="">Email</label>
+                                        <input type="email" name="email" value="{{ old('email') }}" placeholder="Enter Your Email" class="w-full h-[50px] py-[10px] pl-[15px] pr-[10px] border-[1px] border-solid border-[#eee] outline-[0] text-[14px] font-normal text-[#686e7d] rounded-[10px]">
+                                    </div>
+                                    @error('email')
+                                    <span class="text-danger">*{{$message}}</span>
+                                    @enderror
+                                    <div class="bb-contact-wrap mt-[24px]">
+                                        <label for="">Phone</label>
+                                        <input type="number" name="phone" value="{{ old('phone') }}" placeholder="Enter Your Phone Number" class="w-full h-[50px] py-[10px] pl-[15px] pr-[10px] border-[1px] border-solid border-[#eee] outline-[0] text-[14px] font-normal text-[#686e7d] rounded-[10px]">
+                                    </div>
+                                    @error('phone')
+                                    <span class="text-danger">*{{$message}}</span>
+                                    @enderror
+                                    <div class="bb-contact-wrap mt-[24px]">
+                                        <label for="">Address</label>
+                                        <textarea name="address" placeholder="Please leave your comments here.." class="w-full h-[150px] py-[10px] pl-[15px] pr-[10px] border-[1px] border-solid border-[#eee] outline-[0] text-[14px] font-normal text-[#686e7d] rounded-[10px]"></textarea>
+                                    </div>
+                                    <div class="bb-contact-button">
+                                        <button class="bb-btn-2 transition-all duration-[0.3s] ease-in-out font-Poppins leading-[28px] tracking-[0.03rem] py-[4px] px-[25px] text-[14px] font-normal text-[#fff] bg-primary rounded-[10px] border-[1px] border-solid border-primary hover:bg-transparent hover:border-[#3d4750] hover:text-[#3d4750]" type="submit">Submit</button>
                                     </div>
                                 </form>
                             </div>

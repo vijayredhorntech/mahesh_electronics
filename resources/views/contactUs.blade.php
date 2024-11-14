@@ -22,6 +22,9 @@
     <section class="section-contact py-[50px] max-[1199px]:py-[35px]">
         <div class="flex flex-wrap justify-between relative items-center mx-auto min-[1400px]:max-w-[1320px] min-[1200px]:max-w-[1140px] min-[992px]:max-w-[960px] min-[768px]:max-w-[720px] min-[576px]:max-w-[540px]">
             <div class="flex flex-wrap w-full mb-[-24px]">
+
+                <!-- Add success message display here -->
+
                 <div class="w-full px-[12px]">
                     <div class="section-title mb-[20px] pb-[20px] relative flex flex-col items-center text-center max-[991px]:pb-[0]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                         <div class="section-detail max-[991px]:mb-[12px]">
@@ -33,25 +36,51 @@
                 </div>
                 <div class="min-[992px]:w-[50%] w-full px-[12px] mb-[24px]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                     <div class="bb-contact-form border-[1px] border-solid border-[#eee] bg-[#f8f8fb] rounded-[20px] p-[30px]">
-                        <form>
-                            <div class="bb-contact-wrap mb-[24px]">
+                        @if(session('success'))
+                            <div class="w-full mb-[24px]">
+                                <div class="bg-success border border-green-400 text-white px-4 py-3 rounded relative text-center" role="alert">
+                                    <span class="block sm:inline">{{ session('success') }}</span>
+                                </div>
+                            </div>
+                        @endif
+
+                        @if(session('error'))
+                            <div class="w-full mb-[24px]">
+                                <div class="bg-danger border border-red-400 text-white px-4 py-3 rounded relative text-center" role="alert">
+                                    <span class="block sm:inline">{{ session('error') }}</span>
+                                </div>
+                            </div>
+                        @endif
+                        <form action="{{route('contactUsPost')}}" method="post">
+                            @csrf
+                            <div class="bb-contact-wrap mt-[24px]">
                                 <label for="">First Name</label>
-                                <input type="text" name="firstname" placeholder="Enter Your First Name" class="w-full h-[50px] py-[10px] pl-[15px] pr-[10px] border-[1px] border-solid border-[#eee] outline-[0] text-[14px] font-normal text-[#686e7d] rounded-[10px]">
-                            </div>
-                            <div class="bb-contact-wrap mb-[24px]">
+                                <input type="text" name="name" value="{{ old('name') }}" placeholder="Enter Your First Name" class="w-full h-[50px] py-[10px] pl-[15px] pr-[10px] border-[1px] border-solid border-[#eee] outline-[0] text-[14px] font-normal text-[#686e7d] rounded-[10px]">
+                                @error('name')
+                                    <span class="text-danger">*{{$message}}</span>
+                                @enderror
+
+                             </div>
+                            <div class="bb-contact-wrap mt-[24px]">
                                 <label for="">Last Name</label>
-                                <input type="text" name="lastname" placeholder="Enter Your Last Name" class="w-full h-[50px] py-[10px] pl-[15px] pr-[10px] border-[1px] border-solid border-[#eee] outline-[0] text-[14px] font-normal text-[#686e7d] rounded-[10px]">
+                                <input type="text" name="lastname" value="{{ old('lastname') }}" placeholder="Enter Your Last Name" class="w-full h-[50px] py-[10px] pl-[15px] pr-[10px] border-[1px] border-solid border-[#eee] outline-[0] text-[14px] font-normal text-[#686e7d] rounded-[10px]">
                             </div>
-                            <div class="bb-contact-wrap mb-[24px]">
+                            <div class="bb-contact-wrap mt-[24px]">
                                 <label for="">Email</label>
-                                <input type="email" name="email" placeholder="Enter Your Email" class="w-full h-[50px] py-[10px] pl-[15px] pr-[10px] border-[1px] border-solid border-[#eee] outline-[0] text-[14px] font-normal text-[#686e7d] rounded-[10px]">
+                                <input type="email" name="email" value="{{ old('email') }}" placeholder="Enter Your Email" class="w-full h-[50px] py-[10px] pl-[15px] pr-[10px] border-[1px] border-solid border-[#eee] outline-[0] text-[14px] font-normal text-[#686e7d] rounded-[10px]">
                             </div>
-                            <div class="bb-contact-wrap mb-[24px]">
+                            @error('email')
+                            <span class="text-danger">*{{$message}}</span>
+                            @enderror
+                            <div class="bb-contact-wrap mt-[24px]">
                                 <label for="">Phone</label>
-                                <input type="text" name="phonenumber" placeholder="Enter Your Phone Number" class="w-full h-[50px] py-[10px] pl-[15px] pr-[10px] border-[1px] border-solid border-[#eee] outline-[0] text-[14px] font-normal text-[#686e7d] rounded-[10px]">
+                                <input type="number" name="phone" value="{{ old('phone') }}" placeholder="Enter Your Phone Number" class="w-full h-[50px] py-[10px] pl-[15px] pr-[10px] border-[1px] border-solid border-[#eee] outline-[0] text-[14px] font-normal text-[#686e7d] rounded-[10px]">
                             </div>
+                            @error('phone')
+                            <span class="text-danger">*{{$message}}</span>
+                            @enderror
+                            <div class="bb-contact-wrap mt-[24px]">
                             <label for="">Address</label>
-                            <div class="bb-contact-wrap mb-[24px]">
                                 <textarea name="address" placeholder="Please leave your comments here.." class="w-full h-[150px] py-[10px] pl-[15px] pr-[10px] border-[1px] border-solid border-[#eee] outline-[0] text-[14px] font-normal text-[#686e7d] rounded-[10px]"></textarea>
                             </div>
                             <div class="bb-contact-button">

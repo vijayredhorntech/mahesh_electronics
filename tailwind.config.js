@@ -18,6 +18,9 @@ export default {
         colors: {
             // primary: '#5eb595',
             primary: '#4daf72',
+            danger: '#e3342f',
+            success: '#38c172',
+            white: '#ffffff',
 
         },
     },

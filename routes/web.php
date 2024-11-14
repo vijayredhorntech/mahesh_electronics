@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\ContactusController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
@@ -17,3 +18,5 @@ Route::get('/blog-detail/{id}', [BlogController::class, 'blogDetail'])->name('bl
 
 Route::get('/products/{type}', [ProductController::class, 'product'])->name('products');
 Route::get('/product-detail/{type}/{id}', [ProductController::class, 'productDetail'])->name('productDetail');
+
+Route::post('/contact-us', [ContactusController::class, 'contactPost'])->name('contactUsPost');

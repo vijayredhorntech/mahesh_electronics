@@ -54,21 +54,46 @@
                                             <p class="mb-[16px] font-Poppins text-[15px] text-[#686e7d] font-light leading-[28px] tracking-[0.03rem]">Enter your details in the form and we will call you back.</p>
 
                                         </div>
-                                        <form >
+                                        <form action="{{route('contactUsPost')}}" method="post">
+                                            @csrf
+                                            @if(session('success'))
+                                                <div class="w-full mb-[24px]">
+                                                    <div class="bg-success border border-green-400 text-white px-4 py-3 rounded relative text-center" role="alert">
+                                                        <span class="block sm:inline">{{ session('success') }}</span>
+                                                    </div>
+                                                </div>
+                                            @endif
+
+                                            @if(session('error'))
+                                                <div class="w-full mb-[24px]">
+                                                    <div class="bg-danger border border-red-400 text-white px-4 py-3 rounded relative text-center" role="alert">
+                                                        <span class="block sm:inline">{{ session('error') }}</span>
+                                                    </div>
+                                                </div>
+                                            @endif
                                             <div class="flex flex-wrap mx-[-12px]">
                                                 <div class=" w-full px-[12px]">
                                                     <div class="bb-details-input mb-[24px]">
-                                                        <input type="text" placeholder="Enter Your Name" class="w-full p-[10px] text-[14px] font-normal text-[#686e7d] border-[1px] border-solid border-[#eee] outline-[0] leading-[26px] rounded-[10px]">
+                                                        <input type="text" name="name" placeholder="Enter Your Name" class="w-full p-[10px] text-[14px] font-normal text-[#686e7d] border-[1px] border-solid border-[#eee] outline-[0] leading-[26px] rounded-[10px]">
+                                                        @error('name')
+                                                        <span class="text-danger">*{{$message}}</span>
+                                                        @enderror
                                                     </div>
                                                 </div>
                                                 <div class=" w-full px-[12px]">
                                                     <div class="bb-details-input mb-[24px]">
-                                                        <input type="phone" placeholder="Enter Your Phone" class="w-full p-[10px] text-[14px] font-normal text-[#686e7d] border-[1px] border-solid border-[#eee] outline-[0] leading-[26px] rounded-[10px]">
+                                                        <input type="number" name="phone" placeholder="Enter Your Phone" class="w-full p-[10px] text-[14px] font-normal text-[#686e7d] border-[1px] border-solid border-[#eee] outline-[0] leading-[26px] rounded-[10px]">
+                                                        @error('phone')
+                                                        <span class="text-danger">*{{$message}}</span>
+                                                        @enderror
                                                     </div>
                                                 </div>
                                                 <div class=" w-full px-[12px]">
                                                     <div class="bb-details-input mb-[24px]">
-                                                        <input type="email" placeholder="Enter Your Email" class="w-full p-[10px] text-[14px] font-normal text-[#686e7d] border-[1px] border-solid border-[#eee] outline-[0] leading-[26px] rounded-[10px]">
+                                                        <input type="email" name="email" placeholder="Enter Your Email" class="w-full p-[10px] text-[14px] font-normal text-[#686e7d] border-[1px] border-solid border-[#eee] outline-[0] leading-[26px] rounded-[10px]">
+                                                        @error('email')
+                                                        <span class="text-danger">*{{$message}}</span>
+                                                        @enderror
                                                     </div>
                                                 </div>
                                                 <div class="w-full px-[12px]">
