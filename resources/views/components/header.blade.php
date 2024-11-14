@@ -19,21 +19,21 @@
         </div>
     </div>
 
-    <div class="bottom-header lg:py-0 py-4 bg-primary/20 ">
+    <div class="bottom-header hidden max-[991px]:block bg-[#3d4750] lg:py-0 py-1 ">
         <div class="flex flex-wrap justify-between relative items-center mx-auto min-[1400px]:max-w-[1320px] min-[1200px]:max-w-[1140px] min-[992px]:max-w-[960px] min-[768px]:max-w-[720px] min-[576px]:max-w-[540px]">
             <div class="flex flex-wrap w-full">
-                <div class="w-full px-[12px]">
+                <div class="w-full px-[12px] ">
                     <div class="inner-bottom-header flex justify-between max-[767px]:flex-col items-center">
                         <div class="cols bb-icons  w-full justify-between lg:hidden  flex">
                             <div class="bb-flex-justify w-full max-[575px]:flex max-[575px]:justify-between">
                                 <div class="bb-header-buttons h-full w-full flex justify-between items-center">
                                     <a href="javascript:void(0)" class="bb-toggle-menu hidden max-[991px]:flex max-[991px]:ml-[20px]">
                                         <div class="header-icon">
-                                            <img src="{{asset('assets/images/logo.png')}}" class="w-[80px]" alt="">
+                                            <img src="{{asset('assets/images/headerLogo.png')}}" class="w-[80px]" alt="">
                                         </div>
                                     </a>
-                                    <form class="bb-btn-group-form   flex relative max-[991px]:ml-[20px] max-[767px]:m-[0]" action="#">
-                                        <input class="form-control bb-search-bar bg-[#fff] block w-full min-h-[45px] h-[48px] py-[10px] pr-[10px] pl-[px]  max-[991px]:min-h-[40px] max-[991px]:h-[40px] max-[991px]:p-[10px] text-[14px] font-normal leading-[1] text-[#777] rounded-[10px] border-[1px] border-solid border-[#eee] tracking-[0.5px]" placeholder="Search products..." type="text">
+                                    <form class="bb-btn-group-form   hidden max-[991px]:flex relative max-[991px]:ml-[20px] max-[767px]:m-[0]" action="#">
+                                        <input class="form-control bb-search-bar bg-[#3d4750] block w-full min-h-[45px] h-[48px] py-[7px] pr-[10px]  max-[991px]:min-h-[40px] max-[991px]:h-[40px] max-[991px]:p-[10px] text-[14px] font-normal leading-[1] text-[#777] rounded-[10px] border-[1px] border-[#fff] tracking-[0.5px]" placeholder="Search products..." type="text">
                                         <button class="submit absolute top-[0] left-[auto] right-[0] flex items-center justify-center w-[45px] h-full bg-transparent text-[#555] text-[16px] rounded-[0] outline-[0] border-[0] padding-[0]" type="submit">
                                             <i class="fa fa-search text-[18px] leading-[12px] text-[#555]"></i>
                                         </button>
@@ -60,13 +60,13 @@
                             <!-- Header Logo Start -->
                             <div class="header-logo flex items-center max-[575px]:justify-center">
                                 <a href="{{route('home')}}">
-                                    <img src="{{asset('assets/images/logo.png')}}" alt="logo" class="light w-[80px] max-[991px]:w-[115px] block">
+                                    <img src="{{asset('assets/images/headerLogo.png')}}" alt="logo" class="light w-[144px] max-[991px]:w-[115px] block">
                                 </a>
                             </div>
 
                         </div>
                         <div class="bb-main-menu relative flex flex-[auto] justify-end max-[991px]:hidden" id="navbarSupportedContent">
-                            <ul class="navbar-nav flex flex-wrap flex-row ">
+                            <ul class="navbar-nav flex flex-wrap flex-row justify-center">
                                 <li class="nav-item flex items-center font-Poppins text-[15px] text-[#686e7d] font-light leading-[28px] tracking-[0.03rem] mr-[35px]">
                                     <a class="{{Route::currentRouteName()==='home'?'text-primary':'text-[#fff]'}} nav-link p-[0] font-Poppins leading-[28px] text-[15px] font-medium  tracking-[0.03rem] block" href="{{route('home')}}">Home</a>
                                 </li>

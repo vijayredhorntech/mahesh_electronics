@@ -40,7 +40,7 @@
     <!-- Main Style -->
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
 </head>
-<body style="background-color: #000; background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url({{asset('assets/images/bannerImage.jpg')}}); background-attachment: fixed; background-size: cover; background-position: center; background-repeat: no-repeat;">
+<body style="background-color: #000; background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0, 0, 0, 0.8)), url({{asset('assets/images/bannerImage.jpg')}}); background-attachment: fixed; background-size: cover; background-position: center; background-repeat: no-repeat;">
 <!-- Loader -->
 {{--    <div class="bb-loader min-w-full w-full h-screen fixed top-[0] left-[0] flex items-center justify-center bg-[#fff] z-[45]">--}}
 {{--        <img src="{{asset('assets/images/logo.png')}}" alt="loader" class="absolute w-[60px] h-[60px]">--}}

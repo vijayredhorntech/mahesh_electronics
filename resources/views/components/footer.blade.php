@@ -5,7 +5,7 @@
                 <div class="flex flex-wrap w-full max-[991px]:mb-[-30px]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                     <div class="min-[992px]:w-[25%] max-[991px]:w-full w-full px-[12px] bb-footer-toggle bb-footer-cat">
                         <div class="bb-footer-widget bb-footer-company flex flex-col max-[991px]:mb-[24px]">
-                            <img src="{{asset('assets/images/logo.png')}}" class="bb-footer-logo max-w-[144px] mb-[30px] max-[767px]:max-w-[130px]" alt="footer logo">
+                            <img src="{{asset('assets/images/footerLogo.png')}}" class="bb-footer-logo max-w-[144px] mb-[30px] max-[767px]:max-w-[130px]" alt="footer logo">
                             <p class="bb-footer-detail max-w-[400px] mb-[30px] p-[0] font-Poppins text-[14px] leading-[27px] font-normal text-[#686e7d] inline-block relative max-[1399px]:text-[15px] max-[1199px]:text-[14px]">We are Leading supplier of wide range of commercial refrigeration equipment's. We are a multi-dimensional team of experts catering to the most celebrated names in the industry.</p>
                         </div>
                     </div>
