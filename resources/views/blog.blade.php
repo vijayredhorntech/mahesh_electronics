@@ -75,7 +75,7 @@
                             </div>
                             <div class="blog-contact p-[20px]">
 
-                                <h5 class="mb-[12px] text-[18px] leading-[1.2]"><a href="{{route('blogDetail',['id'=>4])}}" class="font-Poppins leading-[28px] tracking-[0.03rem] text-[18px] font-medium text-[#3d4750]">Bitzer condensing Unit in ludhaina</a></h5>
+                                <h5 class="mb-[12px] text-[18px] leading-[1.2]"><a href="{{route('blogDetail',['id'=>4])}}" class="font-Poppins leading-[28px] tracking-[0.03rem] text-[18px] font-medium text-[#3d4750]">Bitzer condensing Unit</a></h5>
                                 <p class="font-Poppins tracking-[0.03rem] mb-[12px] text-[14px] leading-[26px] font-light">The compact and robust structural shape of the bitzer condensing units ....</p>
                                 <div class="blog-btn flex">
                                     <a href="{{route('blogDetail',['id'=>4])}}" class="bb-btn-2 transition-all duration-[0.3s] ease-in-out font-Poppins leading-[28px] tracking-[0.03rem] py-[2px] px-[14px] text-[14px] font-normal text-[#fff] bg-primary rounded-[10px] border-[1px] border-solid border-primary hover:bg-transparent hover:border-[#3d4750] hover:text-white">Read More</a>

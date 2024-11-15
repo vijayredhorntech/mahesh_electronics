@@ -17,7 +17,8 @@ export default {
         },
         colors: {
             // primary: '#5eb595',
-            primary: '#4daf72',
+            // primary: '#4daf72',
+            primary: '#32773e',
             danger: '#e3342f',
             success: '#38c172',
             white: '#ffffff',

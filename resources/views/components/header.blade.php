@@ -68,48 +68,48 @@
                         <div class="bb-main-menu relative flex flex-[auto] justify-end max-[991px]:hidden" id="navbarSupportedContent">
                             <ul class="navbar-nav flex flex-wrap flex-row justify-center">
                                 <li class="nav-item flex items-center font-Poppins text-[15px] text-[#686e7d] font-light leading-[28px] tracking-[0.03rem] mr-[35px]">
-                                    <a class="{{Route::currentRouteName()==='home'?'text-primary':'text-[#fff]'}} nav-link p-[0] font-Poppins leading-[28px] text-[15px] font-medium  tracking-[0.03rem] block" href="{{route('home')}}">Home</a>
+                                    <a class="{{Route::currentRouteName()==='home'?'text-primary':'text-[#fff]'}} nav-link p-[0] font-Poppins leading-[28px] text-[15px] font-semibold`  tracking-[0.03rem] block" href="{{route('home')}}">Home</a>
                                 </li>
                                 <li class="nav-item flex items-center font-Poppins text-[15px] text-[#686e7d] font-light leading-[28px] tracking-[0.03rem] mr-[35px]">
-                                    <a class="{{Route::currentRouteName()==='aboutUs'?'text-primary':'text-[#fff]'}} nav-link p-[0] font-Poppins leading-[28px] text-[15px] font-medium tracking-[0.03rem] block" href="{{route('aboutUs')}}">About Us</a>
+                                    <a class="{{Route::currentRouteName()==='aboutUs'?'text-primary':'text-[#fff]'}} nav-link p-[0] font-Poppins leading-[28px] text-[15px] font-semibold` tracking-[0.03rem] block" href="{{route('aboutUs')}}">About Us</a>
                                 </li>
 
                                 <li class="nav-item bb-dropdown flex items-center relative mr-[45px]">
-                                    <a class="nav-link bb-dropdown-item font-Poppins relative p-[0] leading-[28px] text-[15px] font-medium text-[#fff] block tracking-[0.03rem]" href="javascript:void(0)">Products</a>
+                                    <a class="nav-link bb-dropdown-item font-Poppins relative p-[0] leading-[28px] text-[15px] font-semibold` text-[#fff] block tracking-[0.03rem]" href="javascript:void(0)">Products</a>
                                     <ul class="bb-dropdown-menu min-w-[205px] p-[10px] transition-all duration-[0.3s] ease-in-out mt-[25px] absolute top-[40px] z-[16] text-left opacity-[0] invisible left-[0] right-[auto] bg-[#fff] border-[1px] border-solid border-[#eee] flex flex-col rounded-[10px]">
-                                        <li class="m-[0] py-[5px] px-[15px] flex items-center"><a class="dropdown-item transition-all duration-[0.3s] ease-in-out py-[5px] leading-[22px] text-[14px] font-normal text-[#686e7d] hover:text-[#5eb595] capitalize block w-full whitespace-nowrap" href="{{route('products',['type'=>'compressor'])}}">Compressor</a></li>
-                                        <li class="m-[0] py-[5px] px-[15px] flex items-center"><a class="dropdown-item transition-all duration-[0.3s] ease-in-out py-[5px] leading-[22px] text-[14px] font-normal text-[#686e7d] hover:text-[#5eb595] capitalize block w-full whitespace-nowrap" href="{{route('products',['type'=>'condensing-unit'])}}">Condensing Unit</a></li>
-                                        <li class="m-[0] py-[5px] px-[15px] flex items-center"><a class="dropdown-item transition-all duration-[0.3s] ease-in-out py-[5px] leading-[22px] text-[14px] font-normal text-[#686e7d] hover:text-[#5eb595] capitalize block w-full whitespace-nowrap" href="{{route('products',['type'=>'compressor-oil'])}}">Compressor Oil</a></li>
-                                        <li class="m-[0] py-[5px] px-[15px] flex items-center"><a class="dropdown-item transition-all duration-[0.3s] ease-in-out py-[5px] leading-[22px] text-[14px] font-normal text-[#686e7d] hover:text-[#5eb595] capitalize block w-full whitespace-nowrap" href="#">Heating Elements</a></li>
-                                        <li class="m-[0] py-[5px] px-[15px] flex items-center"><a class="dropdown-item transition-all duration-[0.3s] ease-in-out py-[5px] leading-[22px] text-[14px] font-normal text-[#686e7d] hover:text-[#5eb595] capitalize block w-full whitespace-nowrap" href="#">Refrigeration Gas</a></li>
-                                        <li class="m-[0] py-[5px] px-[15px] flex items-center"><a class="dropdown-item transition-all duration-[0.3s] ease-in-out py-[5px] leading-[22px] text-[14px] font-normal text-[#686e7d] hover:text-[#5eb595] capitalize block w-full whitespace-nowrap" href="#">Flow Control Switches</a></li>
-                                        <li class="m-[0] py-[5px] px-[15px] flex items-center"><a class="dropdown-item transition-all duration-[0.3s] ease-in-out py-[5px] leading-[22px] text-[14px] font-normal text-[#686e7d] hover:text-[#5eb595] capitalize block w-full whitespace-nowrap" href="#">Tools</a></li>
-                                        <li class="m-[0] py-[5px] px-[15px] flex items-center"><a class="dropdown-item transition-all duration-[0.3s] ease-in-out py-[5px] leading-[22px] text-[14px] font-normal text-[#686e7d] hover:text-[#5eb595] capitalize block w-full whitespace-nowrap" href="{{route('products',['type'=>'temprature-controller'])}}">Temperature Controller</a></li>
-                                        <li class="m-[0] py-[5px] px-[15px] flex items-center"><a class="dropdown-item transition-all duration-[0.3s] ease-in-out py-[5px] leading-[22px] text-[14px] font-normal text-[#686e7d] hover:text-[#5eb595] capitalize block w-full whitespace-nowrap" href="#">Electrical Motors</a></li>
-                                        <li class="m-[0] py-[5px] px-[15px] flex items-center"><a class="dropdown-item transition-all duration-[0.3s] ease-in-out py-[5px] leading-[22px] text-[14px] font-normal text-[#686e7d] hover:text-[#5eb595] capitalize block w-full whitespace-nowrap" href="#">General Items</a></li>
+                                        <li class="m-[0] py-[5px] px-[15px] flex items-center"><a class="dropdown-item transition-all duration-[0.3s] ease-in-out py-[5px] leading-[22px] text-[14px] font-semibold text-[#686e7d] hover:text-[#5eb595] capitalize block w-full whitespace-nowrap" href="{{route('products',['type'=>'compressor'])}}">Compressor</a></li>
+                                        <li class="m-[0] py-[5px] px-[15px] flex items-center"><a class="dropdown-item transition-all duration-[0.3s] ease-in-out py-[5px] leading-[22px] text-[14px] font-semibold text-[#686e7d] hover:text-[#5eb595] capitalize block w-full whitespace-nowrap" href="{{route('products',['type'=>'condensing-unit'])}}">Condensing Unit</a></li>
+                                        <li class="m-[0] py-[5px] px-[15px] flex items-center"><a class="dropdown-item transition-all duration-[0.3s] ease-in-out py-[5px] leading-[22px] text-[14px] font-semibold text-[#686e7d] hover:text-[#5eb595] capitalize block w-full whitespace-nowrap" href="{{route('products',['type'=>'compressor-oil'])}}">Compressor Oil</a></li>
+                                        <li class="m-[0] py-[5px] px-[15px] flex items-center"><a class="dropdown-item transition-all duration-[0.3s] ease-in-out py-[5px] leading-[22px] text-[14px] font-semibold text-[#686e7d] hover:text-[#5eb595] capitalize block w-full whitespace-nowrap" href="#">Heating Elements</a></li>
+                                        <li class="m-[0] py-[5px] px-[15px] flex items-center"><a class="dropdown-item transition-all duration-[0.3s] ease-in-out py-[5px] leading-[22px] text-[14px] font-semibold text-[#686e7d] hover:text-[#5eb595] capitalize block w-full whitespace-nowrap" href="#">Refrigeration Gas</a></li>
+                                        <li class="m-[0] py-[5px] px-[15px] flex items-center"><a class="dropdown-item transition-all duration-[0.3s] ease-in-out py-[5px] leading-[22px] text-[14px] font-semibold text-[#686e7d] hover:text-[#5eb595] capitalize block w-full whitespace-nowrap" href="#">Flow Control Switches</a></li>
+                                        <li class="m-[0] py-[5px] px-[15px] flex items-center"><a class="dropdown-item transition-all duration-[0.3s] ease-in-out py-[5px] leading-[22px] text-[14px] font-semibold text-[#686e7d] hover:text-[#5eb595] capitalize block w-full whitespace-nowrap" href="#">Tools</a></li>
+                                        <li class="m-[0] py-[5px] px-[15px] flex items-center"><a class="dropdown-item transition-all duration-[0.3s] ease-in-out py-[5px] leading-[22px] text-[14px] font-semibold text-[#686e7d] hover:text-[#5eb595] capitalize block w-full whitespace-nowrap" href="{{route('products',['type'=>'temprature-controller'])}}">Temperature Controller</a></li>
+                                        <li class="m-[0] py-[5px] px-[15px] flex items-center"><a class="dropdown-item transition-all duration-[0.3s] ease-in-out py-[5px] leading-[22px] text-[14px] font-semibold text-[#686e7d] hover:text-[#5eb595] capitalize block w-full whitespace-nowrap" href="#">Electrical Motors</a></li>
+                                        <li class="m-[0] py-[5px] px-[15px] flex items-center"><a class="dropdown-item transition-all duration-[0.3s] ease-in-out py-[5px] leading-[22px] text-[14px] font-semibold text-[#686e7d] hover:text-[#5eb595] capitalize block w-full whitespace-nowrap" href="#">General Items</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item bb-dropdown flex items-center relative mr-[45px]">
-                                    <a class="nav-link bb-dropdown-item font-Poppins relative p-[0] leading-[28px] text-[15px] font-medium text-[#fff] block tracking-[0.03rem]" href="javascript:void(0)">Solution</a>
+                                    <a class="nav-link bb-dropdown-item font-Poppins relative p-[0] leading-[28px] text-[15px] font-semibold` text-[#fff] block tracking-[0.03rem]" href="javascript:void(0)">Solution</a>
                                     <ul class="bb-dropdown-menu min-w-[205px] p-[10px] transition-all duration-[0.3s] ease-in-out mt-[25px] absolute top-[40px] z-[16] text-left opacity-[0] invisible left-[0] right-[auto] bg-[#fff] border-[1px] border-solid border-[#eee] flex flex-col rounded-[10px]">
                                         <li class="m-[0] py-[5px] px-[15px] flex items-center"><a class="dropdown-item transition-all duration-[0.3s] ease-in-out py-[5px] leading-[22px] text-[14px] font-normal text-[#686e7d] hover:text-[#5eb595] capitalize block w-full whitespace-nowrap" href="#">Cold Room Solution</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item bb-dropdown flex items-center relative mr-[45px]">
-                                    <a class="nav-link bb-dropdown-item font-Poppins relative p-[0] leading-[28px] text-[15px] font-medium text-[#fff] block tracking-[0.03rem]" href="javascript:void(0)">Download</a>
+                                    <a class="nav-link bb-dropdown-item font-Poppins relative p-[0] leading-[28px] text-[15px] font-semibold` text-[#fff] block tracking-[0.03rem]" href="javascript:void(0)">Download</a>
                                     <ul class="bb-dropdown-menu min-w-[205px] p-[10px] transition-all duration-[0.3s] ease-in-out mt-[25px] absolute top-[40px] z-[16] text-left opacity-[0] invisible left-[0] right-[auto] bg-[#fff] border-[1px] border-solid border-[#eee] flex flex-col rounded-[10px]">
                                         <li class="m-[0] py-[5px] px-[15px] flex items-center"><a class="dropdown-item transition-all duration-[0.3s] ease-in-out py-[5px] leading-[22px] text-[14px] font-normal text-[#686e7d] hover:text-[#5eb595] capitalize block w-full whitespace-nowrap" href="{{route('download',['type'=>'technicalDataSheet'])}}">Technical Data sheets</a></li>
                                     </ul>
                                 </li>
 
                                 <li class="nav-item flex items-center font-Poppins text-[15px] text-[#686e7d] font-light leading-[28px] tracking-[0.03rem] mr-[35px]">
-                                    <a class="{{Route::currentRouteName()==='blog'?'text-primary':'text-[#fff]'}} nav-link p-[0] font-Poppins leading-[28px] text-[15px] font-medium tracking-[0.03rem] block" href="{{route('blog')}}">Blog</a>
+                                    <a class="{{Route::currentRouteName()==='blog'?'text-primary':'text-[#fff]'}} nav-link p-[0] font-Poppins leading-[28px] text-[15px] font-semibold` tracking-[0.03rem] block" href="{{route('blog')}}">Blog</a>
                                 </li>
                                 <li class="nav-item flex items-center font-Poppins text-[15px] text-[#686e7d] font-light leading-[28px] tracking-[0.03rem] mr-[35px]">
-                                    <a class="{{Route::currentRouteName()==='gallery'?'text-primary':'text-[#fff]'}} nav-link p-[0] font-Poppins leading-[28px] text-[15px] font-medium tracking-[0.03rem] block" href="{{route('gallery')}}">Gallery</a>
+                                    <a class="{{Route::currentRouteName()==='gallery'?'text-primary':'text-[#fff]'}} nav-link p-[0] font-Poppins leading-[28px] text-[15px] font-semibold` tracking-[0.03rem] block" href="{{route('gallery')}}">Gallery</a>
                                 </li>
                                 <li class="nav-item flex items-center font-Poppins text-[15px] text-[#686e7d] font-light leading-[28px] tracking-[0.03rem] mr-[35px]">
-                                    <a class="{{Route::currentRouteName()==='contactUs'?'text-primary':'text-[#fff]'}}  nav-link p-[0] font-Poppins leading-[28px] text-[15px] font-medium tracking-[0.03rem] block" href="{{route('contactUs')}}">Contact Us</a>
+                                    <a class="{{Route::currentRouteName()==='contactUs'?'text-primary':'text-[#fff]'}}  nav-link p-[0] font-Poppins leading-[28px] text-[15px] font-semibold` tracking-[0.03rem] block" href="{{route('contactUs')}}">Contact Us</a>
                                 </li>
 
                             </ul>
@@ -125,13 +125,13 @@
             <div class="bb-menu-content">
                 <ul>
                     <li class="relative">
-                        <a href="{{route('home')}}" class="transition-all duration-[0.3s] ease-in-out mb-[12px] p-[12px] block font-Poppins capitalize text-[#686e7d] border-[1px] border-solid border-[#eee] rounded-[10px] text-[15px] font-medium leading-[28px] tracking-[0.03rem]">Home</a>
+                        <a href="{{route('home')}}" class="transition-all duration-[0.3s] ease-in-out mb-[12px] p-[12px] block font-Poppins capitalize text-[#686e7d] border-[1px] border-solid border-[#eee] rounded-[10px] text-[15px] font-semibold` leading-[28px] tracking-[0.03rem]">Home</a>
                     </li>
                     <li class="relative">
-                        <a href="{{route('aboutUs')}}" class="transition-all duration-[0.3s] ease-in-out mb-[12px] p-[12px] block font-Poppins capitalize text-[#686e7d] border-[1px] border-solid border-[#eee] rounded-[10px] text-[15px] font-medium leading-[28px] tracking-[0.03rem]">About Us</a>
+                        <a href="{{route('aboutUs')}}" class="transition-all duration-[0.3s] ease-in-out mb-[12px] p-[12px] block font-Poppins capitalize text-[#686e7d] border-[1px] border-solid border-[#eee] rounded-[10px] text-[15px] font-semibold` leading-[28px] tracking-[0.03rem]">About Us</a>
                     </li>
                     <li class="relative">
-                        <a href="javascript:void(0)" class="transition-all duration-[0.3s] ease-in-out mb-[12px] p-[12px] block font-Poppins capitalize text-[#686e7d] border-[1px] border-solid border-[#eee] rounded-[10px] text-[15px] font-medium leading-[28px] tracking-[0.03rem]">Products</a>
+                        <a href="javascript:void(0)" class="transition-all duration-[0.3s] ease-in-out mb-[12px] p-[12px] block font-Poppins capitalize text-[#686e7d] border-[1px] border-solid border-[#eee] rounded-[10px] text-[15px] font-semibold` leading-[28px] tracking-[0.03rem]">Products</a>
                         <ul class="sub-menu w-full min-w-[auto] p-[0] mb-[10px] static hidden visible opacity-[1]">
                             <li class="relative"><a href="{{route('products',['type'=>'compressor'])}}" class="font-Poppins leading-[28px] tracking-[0.03rem] transition-all duration-[0.3s] ease-in-out font-normal pl-[12px] text-[14px] text-[#777] mb-[0] capitalize block py-[12px]">Compressor</a></li>
                             <li class="relative"><a href="{{route('products',['type'=>'condensing-unit'])}}" class="font-Poppins leading-[28px] tracking-[0.03rem] transition-all duration-[0.3s] ease-in-out font-normal pl-[12px] text-[14px] text-[#777] mb-[0] capitalize block py-[12px]">Condensing Unit</a></li>
@@ -146,25 +146,25 @@
                         </ul>
                     </li>
                     <li class="relative">
-                        <a href="javascript:void(0)" class="transition-all duration-[0.3s] ease-in-out mb-[12px] p-[12px] block font-Poppins capitalize text-[#686e7d] border-[1px] border-solid border-[#eee] rounded-[10px] text-[15px] font-medium leading-[28px] tracking-[0.03rem]">Solution</a>
+                        <a href="javascript:void(0)" class="transition-all duration-[0.3s] ease-in-out mb-[12px] p-[12px] block font-Poppins capitalize text-[#686e7d] border-[1px] border-solid border-[#eee] rounded-[10px] text-[15px] font-semibold` leading-[28px] tracking-[0.03rem]">Solution</a>
                         <ul class="sub-menu w-full min-w-[auto] p-[0] mb-[10px] static hidden visible opacity-[1]">
                             <li class="relative"><a href="#" class="font-Poppins leading-[28px] tracking-[0.03rem] transition-all duration-[0.3s] ease-in-out font-normal pl-[12px] text-[14px] text-[#777] mb-[0] capitalize block py-[12px]">Cold Room Solution</a></li>
                         </ul>
                     </li>
                     <li class="relative">
-                        <a href="javascript:void(0)" class="transition-all duration-[0.3s] ease-in-out mb-[12px] p-[12px] block font-Poppins capitalize text-[#686e7d] border-[1px] border-solid border-[#eee] rounded-[10px] text-[15px] font-medium leading-[28px] tracking-[0.03rem]">Download</a>
+                        <a href="javascript:void(0)" class="transition-all duration-[0.3s] ease-in-out mb-[12px] p-[12px] block font-Poppins capitalize text-[#686e7d] border-[1px] border-solid border-[#eee] rounded-[10px] text-[15px] font-semibold` leading-[28px] tracking-[0.03rem]">Download</a>
                         <ul class="sub-menu w-full min-w-[auto] p-[0] mb-[10px] static hidden visible opacity-[1]">
                             <li class="relative"><a href="{{route('download',['type'=>'technicalDataSheet'])}}" class="font-Poppins leading-[28px] tracking-[0.03rem] transition-all duration-[0.3s] ease-in-out font-normal pl-[12px] text-[14px] text-[#777] mb-[0] capitalize block py-[12px]">Technical Data sheets</a></li>
                         </ul>
                     </li>
                     <li class="relative">
-                        <a href="{{route('blog')}}" class="transition-all duration-[0.3s] ease-in-out mb-[12px] p-[12px] block font-Poppins capitalize text-[#686e7d] border-[1px] border-solid border-[#eee] rounded-[10px] text-[15px] font-medium leading-[28px] tracking-[0.03rem]">Blog</a>
+                        <a href="{{route('blog')}}" class="transition-all duration-[0.3s] ease-in-out mb-[12px] p-[12px] block font-Poppins capitalize text-[#686e7d] border-[1px] border-solid border-[#eee] rounded-[10px] text-[15px] font-semibold` leading-[28px] tracking-[0.03rem]">Blog</a>
                     </li>
                     <li class="relative">
-                        <a href="{{route('gallery')}}" class="transition-all duration-[0.3s] ease-in-out mb-[12px] p-[12px] block font-Poppins capitalize text-[#686e7d] border-[1px] border-solid border-[#eee] rounded-[10px] text-[15px] font-medium leading-[28px] tracking-[0.03rem]">Gallery</a>
+                        <a href="{{route('gallery')}}" class="transition-all duration-[0.3s] ease-in-out mb-[12px] p-[12px] block font-Poppins capitalize text-[#686e7d] border-[1px] border-solid border-[#eee] rounded-[10px] text-[15px] font-semibold` leading-[28px] tracking-[0.03rem]">Gallery</a>
                     </li>
                     <li class="relative">
-                        <a href="{{route('contactUs')}}" class="transition-all duration-[0.3s] ease-in-out mb-[12px] p-[12px] block font-Poppins capitalize text-[#686e7d] border-[1px] border-solid border-[#eee] rounded-[10px] text-[15px] font-medium leading-[28px] tracking-[0.03rem]">Contact Us</a>
+                        <a href="{{route('contactUs')}}" class="transition-all duration-[0.3s] ease-in-out mb-[12px] p-[12px] block font-Poppins capitalize text-[#686e7d] border-[1px] border-solid border-[#eee] rounded-[10px] text-[15px] font-semibold` leading-[28px] tracking-[0.03rem]">Contact Us</a>
                     </li>
                 </ul>
             </div>

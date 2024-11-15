@@ -125,7 +125,7 @@
                         <div class="footer-copy max-[991px]:mb-[15px]">
                             <div class="footer-bottom-copy max-[991px]:text-center">
                                 <div class="bb-copy text-[#686e7d] text-[13px] tracking-[1px] text-center font-normal leading-[2]">Copyright © <span class="text-[#686e7d] text-[13px] tracking-[1px] text-center font-normal" id="copyright_year"></span>
-                                    <a class="site-name transition-all duration-[0.3s] ease-in-out font-medium text-[#3d4750] font-Poppins text-[15px] leading-[28px] tracking-[0.03rem]" href="{{route('home')}}">Mahesh Refrigeration Co..</a> all rights reserved.
+                                    <a class="site-name transition-all duration-[0.3s] ease-in-out font-medium text-[#3d4750] font-Poppins text-[15px] leading-[28px] tracking-[0.03rem]" href="{{route('home')}}">Mahesh Refrigeration Company. </a> All rights reserved.
                                 </div>
                             </div>
                         </div>

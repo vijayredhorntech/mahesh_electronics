@@ -12,7 +12,7 @@
                                         <div class="hero-contact h-full flex flex-col items-start justify-center max-[991px]:items-center">
                                             <p class="mb-[20px] font-Poppins text-[18px] text-[#777] font-light leading-[28px] tracking-[0.03rem] max-[1199px]:mb-[10px] max-[1199px]:text-[16px]">Professional Solution for COLD Room</p>
                                             <h1 class="mb-[20px] font-quicksand text-[50px] text-[#3d4750] font-bold tracking-[0.03rem] leading-[1.2] max-[1199px]:mb-[10px] max-[1199px]:text-[38px] max-[991px]:text-center max-[991px]:text-[45px] max-[767px]:text-[40px] max-[575px]:text-[35px] max-[420px]:text-[30px] max-[360px]:text-[28px]"> <span class="relative text-primary">Mahesh Refrigeration Company</span><br> </h1>
-                                            <a href="{{route('contactUs')}}" class="bb-btn-1 transition-all duration-[0.3s] ease-in-out font-Poppins leading-[28px] tracking-[0.03rem] py-[8px] px-[20px] text-[14px] font-normal text-[#3d4750] bg-transparent rounded-[10px] border-[1px] border-solid border-[#3d4750] max-[1199px]:py-[3px] max-[1199px]:px-[15px] hover:bg-[#5eb595] hover:border-[#5eb595] hover:text-[#fff]">CALL BACK REQUEST</a>
+                                            <a href="{{route('contactUs')}}" class="bb-btn-1 transition-all duration-[0.3s] ease-in-out font-Poppins leading-[28px] tracking-[0.03rem] py-[8px] px-[20px] text-[14px] font-normal text-[#3d4750] bg-transparent rounded-[10px] border-[1px] border-solid border-[#3d4750] max-[1199px]:py-[3px] max-[1199px]:px-[15px] hover:bg-primary hover:border-primary hover:text-[#fff]">CALL BACK REQUEST</a>
                                         </div>
                                     </div>
                                     <div class="min-[992px]:w-[50%] w-full px-[12px] py-12 min-[992px]:order-2 order-1 mb-[24px]">
@@ -210,7 +210,7 @@
                             </div>
                             <div class="blog-contact p-[20px]">
 
-                                <h5 class="mb-[12px] text-[18px] leading-[1.2]"><a href="{{route('blogDetail',['id'=>4])}}" class="font-Poppins leading-[28px] tracking-[0.03rem] text-[18px] font-medium text-[#3d4750]">Bitzer condensing Unit in ludhaina</a></h5>
+                                <h5 class="mb-[12px] text-[18px] leading-[1.2]"><a href="{{route('blogDetail',['id'=>4])}}" class="font-Poppins leading-[28px] tracking-[0.03rem] text-[18px] font-medium text-[#3d4750]">Bitzer condensing Unit</a></h5>
                                 <p class="font-Poppins tracking-[0.03rem] mb-[12px] text-[14px] leading-[26px] font-light">The compact and robust structural shape of the bitzer condensing units and the use....</p>
                                 <div class="blog-btn flex">
                                     <a href="{{route('blogDetail',['id'=>4])}}" class="bb-btn-2 transition-all duration-[0.3s] ease-in-out font-Poppins leading-[28px] tracking-[0.03rem] py-[2px] px-[14px] text-[14px] font-normal text-[#fff] bg-primary rounded-[10px] border-[1px] border-solid border-primary hover:bg-transparent hover:border-[#3d4750] hover:text-white">Read More</a>
