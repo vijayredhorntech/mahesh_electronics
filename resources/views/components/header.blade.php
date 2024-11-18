@@ -60,7 +60,7 @@
                             <!-- Header Logo Start -->
                             <div class="header-logo flex items-center max-[575px]:justify-center">
                                 <a href="{{route('home')}}">
-                                    <img src="{{asset('assets/images/headerLogo.png')}}" alt="logo" class="light w-[144px] max-[991px]:w-[115px] block">
+                                    <img src="{{asset('assets/images/headerLogo.png')}}" alt="logo" class="light w-[180px] max-[991px]:w-[115px] block">
                                 </a>
                             </div>
 
