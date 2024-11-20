@@ -8,22 +8,17 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide slide-1">
                                 <div class="flex flex-wrap w-full mb-[-24px]">
-                                    <div class="min-[992px]:w-[50%] w-full px-[12px] min-[992px]:order-1 order-2 mb-[24px]">
-                                        <div class="hero-contact h-full flex flex-col items-start justify-center max-[991px]:items-center">
-                                            <p class="mb-[20px] font-Poppins text-[18px] text-[#777] font-light leading-[28px] tracking-[0.03rem] max-[1199px]:mb-[10px] max-[1199px]:text-[16px]">Professional Solution for COLD Room</p>
+                                    <div class="min-[992px]:w-[50%] w-full px-[12px] min-[992px]:order-1 order-1 mb-[24px]">
+                                        <div class="hero-contact h-full flex flex-col items-start justify-center max-[991px]:items-center ">
+                                            <p class="mb-[20px] font-Poppins text-[18px] text-[#777] font-light leading-[28px] tracking-[0.03rem] max-[1199px]:mb-[10px] max-[1199px]:text-[16px] text-center ">Professional Solution for Refrigeration and Air Conditioning</p>
                                             <h1 class="mb-[20px] font-quicksand text-[50px] text-[#3d4750] font-bold tracking-[0.03rem] leading-[1.2] max-[1199px]:mb-[10px] max-[1199px]:text-[38px] max-[991px]:text-center max-[991px]:text-[45px] max-[767px]:text-[40px] max-[575px]:text-[35px] max-[420px]:text-[30px] max-[360px]:text-[28px]"> <span class="relative text-primary">Mahesh Refrigeration Company</span><br> </h1>
                                             <a href="{{route('contactUs')}}" class="bb-btn-1 transition-all duration-[0.3s] ease-in-out font-Poppins leading-[28px] tracking-[0.03rem] py-[8px] px-[20px] text-[14px] font-normal text-[#3d4750] bg-transparent rounded-[10px] border-[1px] border-solid border-[#3d4750] max-[1199px]:py-[3px] max-[1199px]:px-[15px] hover:bg-primary hover:border-primary hover:text-[#fff]">CALL BACK REQUEST</a>
                                         </div>
                                     </div>
-                                    <div class="min-[992px]:w-[50%] w-full px-[12px] py-12 min-[992px]:order-2 order-1 mb-[24px]">
+                                    <div class="min-[992px]:w-[50%] w-full px-[12px] py-12 min-[992px]:order-1 order-1 mb-[24px]">
                                         <div class="hero-image pr-[50px] relative max-[991px]:px-[50px] max-[575px]:px-[30px] flex justify-center max-[420px]:p-[0]">
-                                            <img src="{{asset('assets/images/products/tempratureControl/bannerFirst.png')}}" alt="hero" class="w-auto lg:h-[400px] md:h-[400px] h-auto opacity-[1] max-[1199px]:pr-[30px] max-[991px]:pr-[0]">
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" class="animate-shape w-[120%] absolute top-[-150px] right-[-50px] z-[-1] max-[1399px]:right-[-30px] max-[1199px]:w-[125%] max-[991px]:w-[100%] max-[991px]:top-[0] max-[575px]:right-[0] max-[420px]:w-[110%] max-[420px]:right-[-30px]">
-                                                <linearGradient id="shape_1" x1="100%" x2="0%" y1="100%" y2="0%"></linearGradient>
-                                                <path d="">
-                                                    <animate repeatCount="indefinite" attributeName="d" dur="15s" values="" />
-                                                </path>
-                                            </svg>
+                                            <img src="{{asset('assets/images/products/tempratureControl/bannerFirst.png')}}" alt="hero" class="w-auto lg:h-[400px] md:h-[300px] h-[200px] opacity-[1] max-[1199px]:pr-[30px] max-[991px]:pr-[0]">
+
                                         </div>
                                     </div>
                                 </div>
