@@ -23,13 +23,13 @@
     <section class="section-about">
         <div class="flex flex-wrap justify-between items-center mx-auto min-[1400px]:max-w-[1320px] min-[1200px]:max-w-[1140px] min-[992px]:max-w-[960px] min-[768px]:max-w-[720px] min-[576px]:max-w-[540px]">
             <div class="flex flex-wrap w-full">
-                <div class="min-[992px]:w-[50%] w-full px-[12px]">
-                    <div class="bb-about-img sticky top-[0]">
-                        <img src="{{asset('assets/images/products/compressor/bitzorBgRemoved.png')}}" alt="about-one" class="w-full">
+                <div class="min-[992px]:w-[50%] order-2 w-full px-[12px]">
+                    <div class="bb-about-img sticky top-[0] flex justify-center">
+                        <img src="{{asset('assets/images/products/compressor/bitzorBgRemoved.png')}}" alt="about-one" class="lg:h-[500px] md:h-[400px] h-[300px]">
                     </div>
                 </div>
-                <div class="min-[992px]:w-[50%] w-full">
-                    <div class="bb-about-contact h-full flex flex-col justify-center">
+                <div class="min-[992px]:w-[50%] order-1 w-full">
+                    <div class="bb-about-contact h-full flex flex-col justify-center text-center">
                         <div class="section-title pb-[12px] px-[12px] flex justify-start max-[991px]:flex-col max-[991px]:justify-center max-[991px]:text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                             <div class="section-detail max-[991px]:mb-[12px]">
                                 <h2 class="bb-title font-quicksand tracking-[0.03rem] mb-[0] p-[0] text-[25px] font-bold text-[#fff] inline capitalize leading-[1] max-[767px]:text-[23px]">Mahesh <span class="text-primary">Refrigeration</span>  Company Founder by Mahesh Kalra in year 1988</h2>

@@ -10,7 +10,7 @@
                                 <div class="flex flex-wrap w-full mb-[-24px]">
                                     <div class="min-[992px]:w-[50%] w-full px-[12px] min-[992px]:order-1 order-1 mb-[24px]">
                                         <div class="hero-contact h-full flex flex-col items-start justify-center max-[991px]:items-center ">
-                                            <p class="mb-[20px] font-Poppins text-[18px] text-[#777] font-light leading-[28px] tracking-[0.03rem] max-[1199px]:mb-[10px] max-[1199px]:text-[16px] text-center ">Professional Solution for Refrigeration and Air Conditioning</p>
+                                            <p class="mb-[20px] font-Poppins text-[18px] text-[#777] font-light leading-[28px] tracking-[0.03rem] max-[1199px]:mb-[10px] max-[1199px]:text-[16px] text-center ">Professional Solution for Commercial Refrigeration and Air Conditioning</p>
                                             <h1 class="mb-[20px] font-quicksand text-[50px] text-[#3d4750] font-bold tracking-[0.03rem] leading-[1.2] max-[1199px]:mb-[10px] max-[1199px]:text-[38px] max-[991px]:text-center max-[991px]:text-[45px] max-[767px]:text-[40px] max-[575px]:text-[35px] max-[420px]:text-[30px] max-[360px]:text-[28px]"> <span class="relative text-primary">Mahesh Refrigeration Company</span><br> </h1>
                                             <a href="{{route('contactUs')}}" class="bb-btn-1 transition-all duration-[0.3s] ease-in-out font-Poppins leading-[28px] tracking-[0.03rem] py-[8px] px-[20px] text-[14px] font-normal text-[#3d4750] bg-transparent rounded-[10px] border-[1px] border-solid border-[#3d4750] max-[1199px]:py-[3px] max-[1199px]:px-[15px] hover:bg-primary hover:border-primary hover:text-[#fff]">CALL BACK REQUEST</a>
                                         </div>
@@ -132,10 +132,10 @@
                             <div class=" w-full px-[12px] mb-[24px]">
                                 <div class="bb-vendor-box p-[20px] bg-[#f8f8fb] border-[1px] border-solid border-[#eee] rounded-[20px]">
                                     <div class="bb-count mb-[12px] max-[1399px]:mb-[8px]">
-                                        <h5 class="counter font-quicksand tracking-[0.03rem] text-[32px] leading-[24px] text-[#3d4750] font-bold max-[1399px]:text-[28px] text-center">Emerson</h5>
+                                        <h5 class="counter font-quicksand tracking-[0.03rem] text-[32px] leading-[24px] text-[#3d4750] font-bold max-[1399px]:text-[28px] text-center">Copeland</h5>
                                     </div>
                                     <div class="inner-text">
-                                        <p class="font-Poppins font-light tracking-[0.03rem] text-[14px] leading-[18px] text-[#686e7d] mb-[0] text-center">At Emerson, our industry-leading heating, air conditioning and refrigeration technologies create comfortable residential and commercial environments, maintain the integrity of goods throughout the cold chain, and improve operational and energy efficiencies to make life easier.</p>
+                                        <p class="font-Poppins font-light tracking-[0.03rem] text-[14px] leading-[18px] text-[#686e7d] mb-[0] text-center">At Copeland, our industry-leading heating, air conditioning and refrigeration technologies create comfortable residential and commercial environments, maintain the integrity of goods throughout the cold chain, and improve operational and energy efficiencies to make life easier.</p>
                                     </div>
                                 </div>
                             </div>
