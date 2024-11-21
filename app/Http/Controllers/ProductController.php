@@ -106,7 +106,7 @@ class ProductController extends Controller
                     'title' => 'Emerson Copeland Compressors',
                     'description' => 'Inventiveness is our unique combination of innovation and resourcefulness. It is at the heart of what the Copeland brand stands for and what we bring to solve any challenge! Our passion for progress is driven by the demands and changes our customers face and the opportunity to provide smart, sustainable technology and services',
                     'status' => 1,
-                    'otherData' => '<iframe width="560" height="315" src="https://www.youtube.com/embed/XzE21UpB2AE?si=5LpnoLHHcM1SA8Wm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                    'otherData' => '<iframe class="lg:w-[500px] md:w-[400px] sm:w-[350px] w-[300px] mx-auto" height="315" src="https://www.youtube.com/embed/XzE21UpB2AE?si=5LpnoLHHcM1SA8Wm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
 
                 ];
             }

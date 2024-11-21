@@ -48,7 +48,7 @@
                                     <div class="mb-[12px]">
                                         <p class="font-Poppins text-[15px] font-light leading-[28px] tracking-[0.03rem]">{{$product['description']}}</p>
                                     </div>
-                                    <div class="bb-blog-details-comment bg-[#f8f8fb] p-6 rounded-[10px] mt-[12px] ">
+                                    <div class="bb-blog-details-comment bg-[#f8f8fb]  rounded-[10px] mt-[12px] ">
                                         <div class="main-title mb-[12px]">
                                             <h4 class="font-quicksand tracking-[0.03rem] leading-[1.2] text-[20px] font-bold text-[#3d4750]">Request a Callback</h4>
                                             <p class="mb-[16px] font-Poppins text-[15px] text-[#686e7d] font-light leading-[28px] tracking-[0.03rem]">Enter your details in the form and we will call you back.</p>

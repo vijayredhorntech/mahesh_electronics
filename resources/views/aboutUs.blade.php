@@ -124,8 +124,8 @@
                             </div>
                         </div>
                         <div class="about-inner-contact px-[12px] mb-[14px]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                            <h4 class="font-quicksand tracking-[0.03rem] leading-[1.2] mb-[20px] text-[18px] text-[#fff]/90 font-bold italic">The Perfect Match for Air Conditioning</h4>
-                            <p class="font-Poppins mb-[16px] text-[14px] text-[#fff]/80 font-light leading-[28px] tracking-[0.03rem]">The challenges within the refrigeration and air-conditioning industry are diverse, which is why the solutions must be, too. With its large portfolio of products and services, Mahesh Refrigeration Company offers the right solutions for any application. As we spend more and more time indoors, we become more reliant on our air handling systems to deliver optimal indoor climate A modern air handling unit, with active and/or passive heat recovery, increases air flow, keeps the indoor temperature at a comfortable level and uses a minimum of energy.</p>
+                            <h4 class="font-quicksand tracking-[0.03rem] leading-[1.2] mb-[20px] text-[18px] text-[#fff]/90 font-bold italic lg:text-left md:text-left text-center">The Perfect Match for Air Conditioning</h4>
+                            <p class="font-Poppins mb-[16px] text-[14px] text-[#fff]/80 font-light leading-[28px] tracking-[0.03rem] lg:text-left md:text-left text-center">The challenges within the refrigeration and air-conditioning industry are diverse, which is why the solutions must be, too. With its large portfolio of products and services, Mahesh Refrigeration Company offers the right solutions for any application. As we spend more and more time indoors, we become more reliant on our air handling systems to deliver optimal indoor climate A modern air handling unit, with active and/or passive heat recovery, increases air flow, keeps the indoor temperature at a comfortable level and uses a minimum of energy.</p>
 
                         </div>
 
