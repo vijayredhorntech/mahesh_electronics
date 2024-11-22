@@ -17,7 +17,7 @@
                                     </div>
                                     <div class="min-[992px]:w-[50%] w-full px-[12px] py-12 min-[992px]:order-1 order-1 mb-[24px]">
                                         <div class="hero-image pr-[50px] relative max-[991px]:px-[50px] max-[575px]:px-[30px] flex justify-center max-[420px]:p-[0]">
-                                            <img src="{{asset('assets/images/products/tempratureControl/bannerFirst.png')}}" alt="hero" class="w-auto lg:h-[400px] md:h-[300px] h-[200px] opacity-[1] max-[1199px]:pr-[30px] max-[991px]:pr-[0]">
+                                            <img src="{{asset('assets/images/products/condensingUnit/bitzer.png')}}" alt="hero" class="w-auto lg:h-[400px] md:h-[400px] h-[300px] opacity-[1] max-[1199px]:pr-[30px] max-[991px]:pr-[0]">
 
                                         </div>
                                     </div>
@@ -103,7 +103,7 @@
             <div class="flex flex-wrap w-full mb-[-24px]">
                 <div class="min-[992px]:w-[50%] w-full px-[12px] mb-[24px]">
                     <div class="bb-about-img sticky top-[0]">
-                        <img src="{{asset('assets/images/products/compressor/bitzorBgRemoved.png')}}" alt="about-one" class="w-full">
+                        <img src="{{asset('assets/images/products/condensingUnit/emerson.jpeg')}}" alt="about-one" class="w-auto lg:h-[400px] md:h-[300px] h-[250px] mx-auto">
                     </div>
                 </div>
                 <div class="min-[992px]:w-[50%] w-full mb-[24px]">
@@ -127,6 +127,9 @@
                                     <div class="inner-text">
                                         <p class="font-Poppins font-light tracking-[0.03rem] text-[14px] leading-[18px] text-[#686e7d] mb-[0] text-center">Carrier solutions inspire confidence in everyday life and the things that matter to our customers. We keep people safe, comfortable and in control of home health. We help optimize buildings for energy efficiency and to benefit the people inside. And we support our customers in preserving food and medicine as they make their way to people across the globe.</p>
                                     </div>
+                                    <div class="inner-text">
+                                        <img src="{{asset('assets/images/products/condensingUnit/carrier.jpg')}}" alt="blog-1" class="w-auto mx-auto h-[100px] rounded-tl-[20px] rounded-tr-[20px]">
+                                    </div>
                                 </div>
                             </div>
                             <div class=" w-full px-[12px] mb-[24px]">
@@ -137,6 +140,9 @@
                                     <div class="inner-text">
                                         <p class="font-Poppins font-light tracking-[0.03rem] text-[14px] leading-[18px] text-[#686e7d] mb-[0] text-center">At Copeland, our industry-leading heating, air conditioning and refrigeration technologies create comfortable residential and commercial environments, maintain the integrity of goods throughout the cold chain, and improve operational and energy efficiencies to make life easier.</p>
                                     </div>
+                                    <div class="inner-text">
+                                        <img src="{{asset('assets/images/products/condensingUnit/copland.jpg')}}" alt="blog-1" class="w-auto mx-auto h-[100px] rounded-tl-[20px] rounded-tr-[20px]">
+                                    </div>
                                 </div>
                             </div>
                             <div class=" w-full px-[12px] mb-[24px]">
@@ -146,6 +152,9 @@
                                     </div>
                                     <div class="inner-text">
                                         <p class="font-Poppins font-light tracking-[0.03rem] text-[14px] leading-[18px] text-[#686e7d] mb-[0] text-center">Or more than 85 years, the BITZER name has represented the highest quality, efficiency and reliability. BITZER is the only company to produce all three primary types of compressor: reciprocating, screw and scroll. And with its environmentally friendly solutions and innovative electronic products, BITZER is driving the refrigeration and air-conditioning industry around the world</p>
+                                    </div>
+                                    <div class="inner-text">
+                                        <img src="{{asset('assets/images/products/condensingUnit/bitzer.jpg')}}" alt="blog-1" class="w-auto mx-auto h-[100px] rounded-tl-[20px] rounded-tr-[20px]">
                                     </div>
                                 </div>
                             </div>
@@ -176,7 +185,7 @@
                             <div class="blog-contact p-[20px]">
 
                                 <h5 class="mb-[12px] text-[18px] leading-[1.2]"><a href="{{route('blogDetail',['id'=>1])}}" class="font-Poppins leading-[28px] tracking-[0.03rem] text-[18px] font-medium text-[#3d4750]">Bitzer LH104E/4DES-7Y Condensing Unit</a></h5>
-                                <p class="font-Poppins tracking-[0.03rem] mb-[12px] text-[14px] leading-[26px] font-light">Made in Germany. Lowest price and readily available in Chandigarh, Punjab, Haryana, Rajasthan, Mumba....</p>
+                                <p class="font-Poppins tracking-[0.03rem] mb-[12px] text-[14px] leading-[26px] font-light">Made in Germany. Lowest price and readily available.....</p>
                                 <div class="blog-btn flex">
                                     <a href="{{route('blogDetail',['id'=>1])}}" class="bb-btn-2 transition-all duration-[0.3s] ease-in-out font-Poppins leading-[28px] tracking-[0.03rem] py-[2px] px-[14px] text-[14px] font-normal text-[#fff] bg-primary rounded-[10px] border-[1px] border-solid border-primary hover:bg-transparent hover:border-[#3d4750] hover:text-white">Read More</a>
                                 </div>

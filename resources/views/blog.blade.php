@@ -31,7 +31,7 @@
                             <div class="blog-contact p-[20px]">
 
                                 <h5 class="mb-[12px] text-[18px] leading-[1.2]"><a href="{{route('blogDetail',['id'=>1])}}" class="font-Poppins leading-[28px] tracking-[0.03rem] text-[18px] font-medium text-[#3d4750]">Bitzer LH104E/4DES-7Y Condensing Unit</a></h5>
-                                <p class="font-Poppins tracking-[0.03rem] mb-[12px] text-[14px] leading-[26px] font-light">Made in Germany. Lowest price and readily available in Chandigarh, Punjab, Haryana, Rajasthan, Mumba....</p>
+                                <p class="font-Poppins tracking-[0.03rem] mb-[12px] text-[14px] leading-[26px] font-light">Made in Germany. Lowest price and readily available....</p>
                                 <div class="blog-btn flex">
                                     <a href="{{route('blogDetail',['id'=>1])}}" class="bb-btn-2 transition-all duration-[0.3s] ease-in-out font-Poppins leading-[28px] tracking-[0.03rem] py-[2px] px-[14px] text-[14px] font-normal text-[#fff] bg-primary rounded-[10px] border-[1px] border-solid border-primary hover:bg-transparent hover:border-[#3d4750] hover:text-white">Read More</a>
                                 </div>

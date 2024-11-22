@@ -17,7 +17,7 @@ class BlogController extends Controller
                 'title' => 'Bitzer LH104E/4DES-7Y Condensing Unit',
                 'date' => '9th March, 2020 ',
                 'image' => asset('assets/images/blogs/blog1.png'),
-                'description' => 'Made in Germany. Lowest price and readily available in Chandigarh, Punjab, Haryana, Rajasthan, Mumbai, Bengaluru, Chennai, Pune.'
+                'description' => 'Made in Germany. Lowest price and readily available.'
             ];
             return view('blogDetails')->with('blogDetail', $blogDetails);
         }

@@ -1,5 +1,5 @@
 <x-layout>
-    <section class="section-breadcrumb mb-[50px] max-[1199px]:mb-[35px] border-b-[1px] border-solid border-[#eee] bg-[#f8f8fb]">
+    <section class="section-breadcrumb  max-[1199px]:mb-[35px] border-b-[1px] border-solid border-[#eee] bg-[#f8f8fb]">
         <div class="flex flex-wrap justify-between relative items-center mx-auto min-[1400px]:max-w-[1320px] min-[1200px]:max-w-[1140px] min-[992px]:max-w-[960px] min-[768px]:max-w-[720px] min-[576px]:max-w-[540px]">
             <div class="flex flex-wrap w-full">
                 <div class="w-full px-[12px]">
@@ -22,7 +22,7 @@
         </div>
     </section>
 
-    <section class="section-shop pb-[50px] max-[1199px]:pb-[35px]">
+    <section class="section-shop pt-[50px] pb-[50px] max-[1199px]:pb-[35px] bg-[#f8f8fb]">
         <div class="flex flex-wrap justify-between relative items-center mx-auto min-[1400px]:max-w-[1320px] min-[1200px]:max-w-[1140px] min-[992px]:max-w-[960px] min-[768px]:max-w-[720px] min-[576px]:max-w-[540px]">
             <div class="flex flex-wrap w-full px-[12px]">
                 <div class="w-full">
@@ -30,8 +30,8 @@
                         <div class="flex flex-wrap mx-[-12px] mb-[-24px]">
 
                             @foreach ($products as $product)
-                                <div class="min-[992px]:w-[33.33%] min-[768px]:w-[33.33%] w-[50%] max-[480px]:w-full px-[12px] mb-[24px] pro-bb-content" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                                    <div class="bb-pro-box bg-[#fff] border-[1px] border-solid border-[#eee] rounded-[20px]">
+                                <div class="min-[992px]:w-[33.33%] min-[768px]:w-[33.33%] w-[50%] max-[480px]:w-full px-[12px] mb-[24px] pro-bb-content " data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                                    <div class="bb-pro-box bg-[#fff] shadow-lg shadow-black border-[1px] border-solid border-[#eee] rounded-[20px]">
                                         <div class="bb-pro-img overflow-hidden relative border-b-[1px] border-solid border-[#eee] z-[4]">
                                             <a href="{{ route('productDetail', ['type' => $type, 'id' => $product['id']]) }}">
                                                 <div class="inner-img relative block overflow-hidden pointer-events-none rounded-t-[20px]">
