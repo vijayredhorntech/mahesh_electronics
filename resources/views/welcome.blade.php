@@ -1,27 +1,34 @@
 <x-layout>
 
-    <section class="section-hero  py-[50px] relative bg-[#f8f8fb] overflow-hidden">
-        <div class="flex flex-wrap justify-between relative items-center mx-auto min-[1400px]:max-w-[1320px] min-[1200px]:max-w-[1140px] min-[992px]:max-w-[960px] min-[768px]:max-w-[720px] min-[576px]:max-w-[540px]">
+    <section class="section-hero  pb-[50px] relative bg-[#f3f4e7] overflow-hidden">
+        <div class="flex flex-wrap justify-between relative items-center mx-auto min-[1400px]:max-w-[1400px] min-[1200px]:max-w-[1140px] min-[992px]:max-w-[960px] min-[768px]:max-w-[720px] min-[576px]:max-w-[540px]">
+{{--        <div class="flex flex-wrap justify-between relative items-center w-full">--}}
             <div class="flex flex-wrap w-full">
                 <div class="w-full">
                     <div class="hero-slider swiper-container">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide slide-1">
-                                <div class="flex flex-wrap w-full mb-[-24px]">
-                                    <div class="min-[992px]:w-[60%] w-full px-[12px] min-[992px]:order-1 order-1 mb-[24px]">
-                                        <div class="hero-contact h-full flex flex-col items-start justify-center max-[991px]:items-center ">
-                                            <p class="mb-[20px] font-Poppins text-[18px] text-[#777] font-light leading-[28px] tracking-[0.03rem] max-[1199px]:mb-[10px] max-[1199px]:text-[16px] text-center ">Professional Solution for Commercial Refrigeration and Air Conditioning</p>
-                                            <h1 class="mb-[20px] font-quicksand text-[50px] text-[#3d4750] font-bold tracking-[0.03rem] leading-[1.2] max-[1199px]:mb-[10px] max-[1199px]:text-[38px] max-[991px]:text-center max-[991px]:text-[45px] max-[767px]:text-[40px] max-[575px]:text-[35px] max-[420px]:text-[30px] max-[360px]:text-[28px]"> <span class="relative text-primary">Mahesh Refrigeration Company</span><br> </h1>
-                                            <a href="{{route('contactUs')}}" class="bb-btn-1 transition-all duration-[0.3s] ease-in-out font-Poppins leading-[28px] tracking-[0.03rem] py-[8px] px-[20px] text-[14px] font-normal text-[#3d4750] bg-transparent rounded-[10px] border-[1px] border-solid border-[#3d4750] max-[1199px]:py-[3px] max-[1199px]:px-[15px] hover:bg-primary hover:border-primary hover:text-[#fff]">CALL BACK REQUEST</a>
-                                        </div>
-                                    </div>
-                                    <div class="min-[992px]:w-[40%] w-full px-[12px] py-12 min-[992px]:order-1 order-1 mb-[24px]">
-                                        <div class="hero-image pr-[50px] relative max-[991px]:px-[50px] max-[575px]:px-[30px] flex justify-center max-[420px]:p-[0]">
-                                            <img src="{{asset('assets/images/products/condensingUnit/bitzer.png')}}" alt="hero" class="w-auto lg:h-[400px] md:h-[400px] h-[300px] opacity-[1] max-[1199px]:pr-[30px] max-[991px]:pr-[0]">
+{{--                            <div class="swiper-slide slide-1">--}}
+{{--                                <div class="flex flex-wrap w-full mb-[-24px]">--}}
+{{--                                    <div class="min-[992px]:w-[60%] w-full px-[12px] min-[992px]:order-1 order-1 mb-[24px]">--}}
+{{--                                        <div class="hero-contact h-full flex flex-col items-start justify-center max-[991px]:items-center ">--}}
+{{--                                            <p class="mb-[20px] font-Poppins text-[18px] text-[#777] font-light leading-[28px] tracking-[0.03rem] max-[1199px]:mb-[10px] max-[1199px]:text-[16px] text-center ">Professional Solution for Commercial Refrigeration and Air Conditioning</p>--}}
+{{--                                            <h1 class="mb-[20px] font-quicksand text-[50px] text-[#3d4750] font-bold tracking-[0.03rem] leading-[1.2] max-[1199px]:mb-[10px] max-[1199px]:text-[38px] max-[991px]:text-center max-[991px]:text-[45px] max-[767px]:text-[40px] max-[575px]:text-[35px] max-[420px]:text-[30px] max-[360px]:text-[28px]"> <span class="relative text-primary">Mahesh Refrigeration Company</span><br> </h1>--}}
+{{--                                            <a href="{{route('contactUs')}}" class="bb-btn-1 transition-all duration-[0.3s] ease-in-out font-Poppins leading-[28px] tracking-[0.03rem] py-[8px] px-[20px] text-[14px] font-normal text-[#3d4750] bg-transparent rounded-[10px] border-[1px] border-solid border-[#3d4750] max-[1199px]:py-[3px] max-[1199px]:px-[15px] hover:bg-primary hover:border-primary hover:text-[#fff]">CALL BACK REQUEST</a>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="min-[992px]:w-[40%] w-full px-[12px] py-12 min-[992px]:order-1 order-1 mb-[24px]">--}}
+{{--                                        <div class="hero-image pr-[50px] relative max-[991px]:px-[50px] max-[575px]:px-[30px] flex justify-center max-[420px]:p-[0]">--}}
+{{--                                            <img src="{{asset('assets/images/products/condensingUnit/bitzer.png')}}" alt="hero" class="w-auto lg:h-[400px] md:h-[400px] h-[300px] opacity-[1] max-[1199px]:pr-[30px] max-[991px]:pr-[0]">--}}
 
-                                        </div>
-                                    </div>
-                                </div>
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+                            <div class="swiper-slide slide-1">
+                                    <img src="{{asset('assets/images/banner1.png')}}" alt="" class="h-auto w-full">
+                            </div>
+                            <div class="swiper-slide slide-2">
+                                    <img src="{{asset('assets/images/banner2.png')}}" alt="" class="h-auto w-full">
                             </div>
 
                         </div>

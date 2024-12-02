@@ -115,10 +115,10 @@
         speed: 1000,
         parallax: true,
         autoplay: {
-            delay: 5000,
+            delay: 1000,
         },
         effect: 'fade',
-        autoplay: false,
+        autoplay: true,
         autoHeight: true,
         speed: 2500,
         pagination: {
