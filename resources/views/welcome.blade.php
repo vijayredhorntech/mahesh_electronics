@@ -1,6 +1,6 @@
 <x-layout>
 
-    <section class="section-hero  pb-[50px] relative bg-[#f3f4e7] overflow-hidden">
+    <section class="section-hero  pb-[20px] relative bg-[#f3f4e7] overflow-hidden">
         <div class="flex flex-wrap justify-between relative items-center mx-auto min-[1400px]:max-w-[1400px] min-[1200px]:max-w-[1140px] min-[992px]:max-w-[960px] min-[768px]:max-w-[720px] min-[576px]:max-w-[540px]">
 {{--        <div class="flex flex-wrap justify-between relative items-center w-full">--}}
             <div class="flex flex-wrap w-full">
