@@ -25,10 +25,13 @@
 {{--                                </div>--}}
 {{--                            </div>--}}
                             <div class="swiper-slide slide-1">
-                                    <img src="{{asset('assets/images/banner1.png')}}" alt="" class="h-auto w-full">
+                                    <img src="{{asset('assets/images/banner/1.png')}}" alt="" class="h-auto w-full">
                             </div>
                             <div class="swiper-slide slide-2">
-                                    <img src="{{asset('assets/images/banner2.png')}}" alt="" class="h-auto w-full">
+                                    <img src="{{asset('assets/images/banner/2.png')}}" alt="" class="h-auto w-full">
+                            </div>
+                            <div class="swiper-slide slide-2">
+                                    <img src="{{asset('assets/images/banner/3.png')}}" alt="" class="h-auto w-full">
                             </div>
 
                         </div>

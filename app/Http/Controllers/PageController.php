@@ -8,6 +8,10 @@ class PageController extends Controller
     {
         return view('welcome');
     }
+    public function seo()
+    {
+        return view('seo');
+    }
     public function about()
     {
         return view('aboutUs');

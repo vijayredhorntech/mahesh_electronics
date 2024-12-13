@@ -25,7 +25,7 @@
             <div class="flex flex-wrap w-full">
                 <div class="min-[992px]:w-[50%] order-2 w-full px-[12px]">
                     <div class="bb-about-img sticky top-[0] flex justify-center">
-                        <img src="{{asset('assets/images/products/compressor/bitzorBgRemoved.png')}}" alt="about-one" class="lg:h-[500px] md:h-[400px] h-[300px]">
+                        <img src="{{asset('assets/images/products/compressor/aboutUs.png')}}" alt="about-one" class="lg:h-[500px] md:h-[400px] h-[300px]">
                     </div>
                 </div>
                 <div class="min-[992px]:w-[50%] order-1 w-full">

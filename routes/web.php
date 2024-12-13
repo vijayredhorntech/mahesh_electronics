@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', [PageController::class, 'home'])->name('home');
+Route::get('/seo', [PageController::class, 'seo'])->name('seo');
 Route::get('/about-us', [PageController::class, 'about'])->name('aboutUs');
 Route::get('/contact-us', [PageController::class, 'contact'])->name('contactUs');
 Route::get('/download{type}', [PageController::class, 'download'])->name('download');

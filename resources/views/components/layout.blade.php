@@ -7,6 +7,18 @@
     <title>Mahesh Refrigeration Company</title>
     <link rel="icon" type="image/x-icon" href="{{asset('assets/images/logo.png')}}">
 
+    <!-- Meta Descriptions for SEO -->
+    <meta name="description" content="Refrigeration spare part dealers in Zirakpur, Chandigarh, Panchkula, Ambala, Ropar, Baddi, Solan">
+    <meta name="description" content="Refrigeration Compressor dealers in Zirakpur, Chandigarh, Panchkula, Ambala, Ropar, Baddi, Solan">
+    <meta name="description" content="AC part dealers in Zirakpur, Chandigarh, Panchkula, Ambala, Ropar, Baddi, Solan">
+    <meta name="description" content="Air conditioner parts dealers in Zirakpur, Chandigarh, Panchkula, Ambala, Ropar, Baddi, Solan">
+    <meta name="description" content="Refrigeration Genuine spare parts dealers in Zirakpur, Chandigarh, Panchkula, Ambala, Ropar, Baddi, Solan">
+    <meta name="description" content="Best air conditioner spare part dealers in Zirakpur, Chandigarh, Panchkula, Ambala, Ropar, Baddi, Solan">
+    <meta name="description" content="Window Split air conditioner spare part dealers in Zirakpur, Chandigarh, Panchkula, Ambala, Ropar, Baddi, Solan">
+    <meta name="description" content="Bitzer Compressor unit Mohali, Zirakpur, Chandigarh, Panchkula, Ambala, Ropar, Baddi, Solan">
+    <meta name="description" content="Copeland Compressor unit Mohali, Zirakpur, Chandigarh, Panchkula, Ambala, Ropar, Baddi, Solan">
+    <meta name="description" content="Refrigeration gas, copper pipe, fitting, oil, temperature controller, flow switch, insulation dealers in Zirakpur, Chandigarh, Panchkula, Ambala, Ropar, Baddi, Solan">
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet"/>
@@ -19,7 +31,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
           rel="stylesheet">
-
 
     {{--        fontawesome link--}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -35,11 +46,10 @@
     <link rel="stylesheet" href="{{asset('assets/css/vendor/animate.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/vendor/jquery-range-ui.css')}}">
 
-    <!-- tailwindcss -->
-
     <!-- Main Style -->
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
 </head>
+
 <body style=" background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0, 0, 0, 0.8)), url({{asset('')}}); background-attachment: fixed; background-size: cover; background-position: center; background-repeat: no-repeat;">
 {{--<body style="background-color: #000; background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0, 0, 0, 0.8)), url({{asset('assets/images/bannerImage.jpg')}}); background-attachment: fixed; background-size: cover; background-position: center; background-repeat: no-repeat;">--}}
 <!-- Loader -->
