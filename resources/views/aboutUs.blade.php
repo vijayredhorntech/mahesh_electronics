@@ -108,8 +108,6 @@
         </div>
     </section>
 
-
-
     <section class="section-about  py-[50px] max-[1199px]:py-[35px] bg-[#f8f8fb]">
         <div class="flex flex-wrap justify-between items-center mx-auto min-[1400px]:max-w-[1320px] min-[1200px]:max-w-[1140px] min-[992px]:max-w-[960px] min-[768px]:max-w-[720px] min-[576px]:max-w-[540px]">
             <div class="flex flex-wrap w-full mb-[-24px]">
@@ -136,6 +134,5 @@
             </div>
         </div>
     </section>
-
 
 </x-layout>

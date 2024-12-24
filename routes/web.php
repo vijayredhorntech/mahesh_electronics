@@ -21,3 +21,38 @@ Route::get('/products/{type}', [ProductController::class, 'product'])->name('pro
 Route::get('/product-detail/{type}/{id}', [ProductController::class, 'productDetail'])->name('productDetail');
 
 Route::post('/contact-us', [ContactusController::class, 'contactPost'])->name('contactUsPost');
+
+
+Route::get('/refrigeration-spare-part-dealers-zirakpur-chandigarh-panchkula-ambala-ropar-baddi-solan' ,function(){
+    return view('refrigeration-spare-part-dealers-zirakpur-chandigarh-panchkula-ambala-ropar-baddi-solan');
+});
+Route::get('/refrigeration-compressor-dealers-zirakpur-chandigarh-panchkula-ambala-ropar-baddi-solan' ,function(){
+    return view('refrigeration-compressor-dealers-zirakpur-chandigarh-panchkula-ambala-ropar-baddi-solan');
+});
+Route::get('/bitzer-compressor-unit-dealers-mohali-zirakpur-chandigarh-panchkula-ambala-ropar-baddi-solan' ,function(){
+    return view('refrigeration-compressor-dealers-zirakpur-chandigarh-panchkula-ambala-ropar-baddi-solan');
+});
+Route::get('/copeland-compressor-unit-dealers-mohali-zirakpur-chandigarh-panchkula-ambala-ropar-baddi-solan' ,function(){
+    return view('refrigeration-compressor-dealers-zirakpur-chandigarh-panchkula-ambala-ropar-baddi-solan');
+});
+Route::get('/refrigeration-gas-copper-pipe-fittings-oil-temperature-controllers-flow-switches-insulation-dealers-zirakpur-chandigarh-panchkula-ambala-ropar-baddi-solan' ,function(){
+    return view('refrigeration-gas-copper-pipe-fittings-oil-temperature-controllers-flow-switches-insulation-dealers-zirakpur-chandigarh-panchkula-ambala-ropar-baddi-solan');
+});
+Route::get('/ac-part-dealers-zirakpur-chandigarh-panchkula-ambala-ropar-baddi-solan' ,function(){
+    return view('ac-part-dealers-zirakpur-chandigarh-panchkula-ambala-ropar-baddi-solan');
+});
+
+Route::get('/air-condition-parts-dealers-zirakpur-chandigarh-panchkula-ambala-ropar-baddi-solan' ,function(){
+    return view('ac-part-dealers-zirakpur-chandigarh-panchkula-ambala-ropar-baddi-solan');
+});
+
+Route::get('/refrigeration-genuine-spare-parts-dealers-zirakpur-chandigarh-panchkula-ambala-ropar-baddi-solan' ,function(){
+    return view('ac-part-dealers-zirakpur-chandigarh-panchkula-ambala-ropar-baddi-solan');
+});
+Route::get('/best-ac-spare-parts-dealers-zirakpur-chandigarh-panchkula-ambala-ropar-baddi-solan' ,function(){
+    return view('ac-part-dealers-zirakpur-chandigarh-panchkula-ambala-ropar-baddi-solan');
+});
+Route::get('/window-split-ac-spare-parts-dealers-zirakpur-chandigarh-panchkula-ambala-ropar-baddi-solan' ,function(){
+    return view('ac-part-dealers-zirakpur-chandigarh-panchkula-ambala-ropar-baddi-solan');
+});
+
