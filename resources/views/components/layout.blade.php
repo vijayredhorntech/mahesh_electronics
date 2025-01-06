@@ -82,5 +82,14 @@
 
 <!-- main-js -->
 <script src="{{asset('assets/js/main.js')}}"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3PF4JMKQGZ"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-3PF4JMKQGZ');
+</script>
 </body>
 </html>
