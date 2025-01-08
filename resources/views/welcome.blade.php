@@ -33,6 +33,12 @@
                             <div class="swiper-slide slide-2">
                                     <img src="{{asset('assets/images/banner/3.png')}}" alt="" class="h-auto w-full">
                             </div>
+                            <div class="swiper-slide slide-2">
+                                    <img src="{{asset('assets/images/banner/4.png')}}" alt="" class="h-auto w-full">
+                            </div>
+                            <div class="swiper-slide slide-2">
+                                    <img src="{{asset('assets/images/banner/5.png')}}" alt="" class="h-auto w-full">
+                            </div>
 
                         </div>
                         <div class="swiper-pagination swiper-pagination-white"></div>
