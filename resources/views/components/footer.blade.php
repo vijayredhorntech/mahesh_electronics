@@ -18,13 +18,13 @@
                                         <a href="{{route('home')}}" class="transition-all duration-[0.3s] ease-in-out font-Poppins text-[14px] leading-[20px] text-[#686e7d] hover:text-primary mb-[0] inline-block break-all tracking-[0] font-normal">Home</a>
                                     </li>
                                     <li class="bb-footer-link leading-[1.5] flex items-center mb-[16px] max-[991px]:mb-[15px]">
-                                        <a href="#" class="transition-all duration-[0.3s] ease-in-out font-Poppins text-[14px] leading-[20px] text-[#686e7d] hover:text-primary mb-[0] inline-block break-all tracking-[0] font-normal">Products</a>
+                                        <a href="{{route('home')}}" class="transition-all duration-[0.3s] ease-in-out font-Poppins text-[14px] leading-[20px] text-[#686e7d] hover:text-primary mb-[0] inline-block break-all tracking-[0] font-normal">Products</a>
                                     </li>
                                     <li class="bb-footer-link leading-[1.5] flex items-center mb-[16px] max-[991px]:mb-[15px]">
                                         <a href="{{route('blog')}}" class="transition-all duration-[0.3s] ease-in-out font-Poppins text-[14px] leading-[20px] text-[#686e7d] hover:text-primary mb-[0] inline-block break-all tracking-[0] font-normal">Blogs</a>
                                     </li>
                                     <li class="bb-footer-link leading-[1.5] flex items-center mb-[16px] max-[991px]:mb-[15px]">
-                                        <a href="#" class="transition-all duration-[0.3s] ease-in-out font-Poppins text-[14px] leading-[20px] text-[#686e7d] hover:text-primary mb-[0] inline-block break-all tracking-[0] font-normal">Solution</a>
+                                        <a href="{{route('home')}}" class="transition-all duration-[0.3s] ease-in-out font-Poppins text-[14px] leading-[20px] text-[#686e7d] hover:text-primary mb-[0] inline-block break-all tracking-[0] font-normal">Solution</a>
                                     </li>
                                     <li class="bb-footer-link leading-[1.5] flex items-center mb-[16px] max-[991px]:mb-[15px]">
                                         <a href="{{route('download',['type'=>'technicalDataSheet'])}}" class="transition-all duration-[0.3s] ease-in-out font-Poppins text-[14px] leading-[20px] text-[#686e7d] hover:text-primary mb-[0] inline-block break-all tracking-[0] font-normal">Download</a>
@@ -57,7 +57,7 @@
                             <div class="bb-footer-links bb-footer-dropdown hidden max-[991px]:mb-[35px]">
                                 <ul class="align-items-center">
                                     <li class="bb-footer-link leading-[1.5] flex items-center mb-[16px] max-[991px]:mb-[15px]">
-                                        <a href="#" class="transition-all duration-[0.3s] ease-in-out font-Poppins text-[14px] leading-[20px] text-[#686e7d] hover:text-primary mb-[0] inline-block break-all tracking-[0] font-normal">Disclaimer</a>
+                                        <a href="{{route('home')}}" class="transition-all duration-[0.3s] ease-in-out font-Poppins text-[14px] leading-[20px] text-[#686e7d] hover:text-primary mb-[0] inline-block break-all tracking-[0] font-normal">Disclaimer</a>
                                     </li>
                                     <li class="bb-footer-link leading-[1.5] flex items-center mb-[16px] max-[991px]:mb-[15px]">
                                         <a href="3" class="transition-all duration-[0.3s] ease-in-out font-Poppins text-[14px] leading-[20px] text-[#686e7d] hover:text-primary mb-[0] inline-block break-all tracking-[0] font-normal">Terms & Conditions</a>
