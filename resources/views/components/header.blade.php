@@ -27,7 +27,7 @@
                         <div class="cols bb-icons  w-full justify-between lg:hidden  flex">
                             <div class="bb-flex-justify w-full max-[575px]:flex max-[575px]:justify-between">
                                 <div class="bb-header-buttons h-full w-full flex justify-between items-center">
-                                    <a href="{{route('home)}}" class="bb-toggle-menu hidden max-[991px]:flex max-[991px]:ml-[20px]">
+                                    <a href="javascript:void(0)" class="bb-toggle-menu hidden max-[991px]:flex max-[991px]:ml-[20px]">
                                         <div class="header-icon">
                                             <img src="{{asset('assets/images/footerLogo.png')}}" class="w-[100px]" alt="footer_logo">
                                         </div>
@@ -38,7 +38,7 @@
                                             <i class="fa fa-search text-[18px] leading-[12px] text-[#555]"></i>
                                         </button>
                                     </form>
-                                    <a href="{{route('home)}}" class="bb-toggle-menu hidden max-[991px]:flex max-[991px]:ml-[20px]">
+                                    <a href="javascript:void(0)" class="bb-toggle-menu hidden max-[991px]:flex max-[991px]:ml-[20px]">
                                         <div class="header-icon">
                                             <i class="fa fa-bars text-[22px] text-[#5eb595]"></i>
                                         </div>
@@ -75,7 +75,7 @@
                                 </li>
 
                                 <li class="nav-item bb-dropdown flex items-center relative mr-[45px]">
-                                    <a class="nav-link bb-dropdown-item font-Poppins relative p-[0] leading-[28px] text-[15px] font-semibold text-black  block tracking-[0.03rem]" href="{{route('home)}}">Products</a>
+                                    <a class="nav-link bb-dropdown-item font-Poppins relative p-[0] leading-[28px] text-[15px] font-semibold text-black  block tracking-[0.03rem]" href="javascript:void(0)">Products</a>
                                     <ul class="bb-dropdown-menu min-w-[205px] p-[10px] transition-all duration-[0.3s] ease-in-out mt-[25px] absolute top-[40px] z-[16] text-left opacity-[0] invisible left-[0] right-[auto] bg-[#fff] border-[1px] border-solid border-[#eee] flex flex-col rounded-[10px]">
                                         <li class="m-[0] py-[5px] px-[15px] flex items-center"><a class="dropdown-item transition-all duration-[0.3s] ease-in-out py-[5px] leading-[22px] text-[14px] font-semibold  hover:text-[#5eb595] capitalize block w-full whitespace-nowrap" href="{{route('products',['type'=>'compressor'])}}">Compressor</a></li>
                                         <li class="m-[0] py-[5px] px-[15px] flex items-center"><a class="dropdown-item transition-all duration-[0.3s] ease-in-out py-[5px] leading-[22px] text-[14px] font-semibold  hover:text-[#5eb595] capitalize block w-full whitespace-nowrap" href="{{route('products',['type'=>'condensing-unit'])}}">Condensing Unit</a></li>
@@ -90,13 +90,13 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item bb-dropdown flex items-center relative mr-[45px]">
-                                    <a class="nav-link bb-dropdown-item font-Poppins relative p-[0] leading-[28px] text-[15px] font-semibold text-black  block tracking-[0.03rem]" href="{{route('home)}}">Solution</a>
+                                    <a class="nav-link bb-dropdown-item font-Poppins relative p-[0] leading-[28px] text-[15px] font-semibold text-black  block tracking-[0.03rem]" href="javascript:void(0)">Solution</a>
                                     <ul class="bb-dropdown-menu min-w-[205px] p-[10px] transition-all duration-[0.3s] ease-in-out mt-[25px] absolute top-[40px] z-[16] text-left opacity-[0] invisible left-[0] right-[auto] bg-[#fff] border-[1px] border-solid border-[#eee] flex flex-col rounded-[10px]">
                                         <li class="m-[0] py-[5px] px-[15px] flex items-center"><a class="dropdown-item transition-all duration-[0.3s] ease-in-out py-[5px] leading-[22px] text-[14px] font-normal  hover:text-[#5eb595] capitalize block w-full whitespace-nowrap" href="{{route('home')}}">Cold Room Solution</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item bb-dropdown flex items-center relative mr-[45px]">
-                                    <a class="nav-link bb-dropdown-item font-Poppins relative p-[0] leading-[28px] text-[15px] font-semibold text-black  block tracking-[0.03rem]" href="{{route('home)}}">Download</a>
+                                    <a class="nav-link bb-dropdown-item font-Poppins relative p-[0] leading-[28px] text-[15px] font-semibold text-black  block tracking-[0.03rem]" href="javascript:void(0)">Download</a>
                                     <ul class="bb-dropdown-menu min-w-[205px] p-[10px] transition-all duration-[0.3s] ease-in-out mt-[25px] absolute top-[40px] z-[16] text-left opacity-[0] invisible left-[0] right-[auto] bg-[#fff] border-[1px] border-solid border-[#eee] flex flex-col rounded-[10px]">
                                         <li class="m-[0] py-[5px] px-[15px] flex items-center"><a class="dropdown-item transition-all duration-[0.3s] ease-in-out py-[5px] leading-[22px] text-[14px] font-normal  hover:text-[#5eb595] capitalize block w-full whitespace-nowrap" href="{{route('download',['type'=>'technicalDataSheet'])}}">Technical Data sheets</a></li>
                                     </ul>
@@ -131,7 +131,7 @@
                         <a href="{{route('aboutUs')}}" class="transition-all duration-[0.3s] ease-in-out mb-[12px] p-[12px] block font-Poppins capitalize  border-[1px] border-solid border-[#eee] rounded-[10px] text-[15px] font-semibold leading-[28px] tracking-[0.03rem]">About Us</a>
                     </li>
                     <li class="relative">
-                        <a href="{{route('home')}}" class="transition-all duration-[0.3s] ease-in-out mb-[12px] p-[12px] block font-Poppins capitalize  border-[1px] border-solid border-[#eee] rounded-[10px] text-[15px] font-semibold leading-[28px] tracking-[0.03rem]">Products</a>
+                        <a href="javascript:void(0)" class="transition-all duration-[0.3s] ease-in-out mb-[12px] p-[12px] block font-Poppins capitalize  border-[1px] border-solid border-[#eee] rounded-[10px] text-[15px] font-semibold leading-[28px] tracking-[0.03rem]">Products</a>
                         <ul class="sub-menu w-full min-w-[auto] p-[0] mb-[10px] static hidden visible opacity-[1]">
                             <li class="relative"><a href="{{route('products',['type'=>'compressor'])}}" class="font-Poppins leading-[28px] tracking-[0.03rem] transition-all duration-[0.3s] ease-in-out font-normal pl-[12px] text-[14px] text-[#777] mb-[0] capitalize block py-[12px]">Compressor</a></li>
                             <li class="relative"><a href="{{route('products',['type'=>'condensing-unit'])}}" class="font-Poppins leading-[28px] tracking-[0.03rem] transition-all duration-[0.3s] ease-in-out font-normal pl-[12px] text-[14px] text-[#777] mb-[0] capitalize block py-[12px]">Condensing Unit</a></li>
@@ -146,13 +146,13 @@
                         </ul>
                     </li>
                     <li class="relative">
-                        <a href="{{route('home')}}" class="transition-all duration-[0.3s] ease-in-out mb-[12px] p-[12px] block font-Poppins capitalize  border-[1px] border-solid border-[#eee] rounded-[10px] text-[15px] font-semibold leading-[28px] tracking-[0.03rem]">Solution</a>
+                        <a href="javascript:void(0)" class="transition-all duration-[0.3s] ease-in-out mb-[12px] p-[12px] block font-Poppins capitalize  border-[1px] border-solid border-[#eee] rounded-[10px] text-[15px] font-semibold leading-[28px] tracking-[0.03rem]">Solution</a>
                         <ul class="sub-menu w-full min-w-[auto] p-[0] mb-[10px] static hidden visible opacity-[1]">
                             <li class="relative"><a href="{{route('home')}}" class="font-Poppins leading-[28px] tracking-[0.03rem] transition-all duration-[0.3s] ease-in-out font-normal pl-[12px] text-[14px] text-[#777] mb-[0] capitalize block py-[12px]">Cold Room Solution</a></li>
                         </ul>
                     </li>
                     <li class="relative">
-                        <a href="{{route('home')}}" class="transition-all duration-[0.3s] ease-in-out mb-[12px] p-[12px] block font-Poppins capitalize  border-[1px] border-solid border-[#eee] rounded-[10px] text-[15px] font-semibold leading-[28px] tracking-[0.03rem]">Download</a>
+                        <a href="javascript:void(0)" class="transition-all duration-[0.3s] ease-in-out mb-[12px] p-[12px] block font-Poppins capitalize  border-[1px] border-solid border-[#eee] rounded-[10px] text-[15px] font-semibold leading-[28px] tracking-[0.03rem]">Download</a>
                         <ul class="sub-menu w-full min-w-[auto] p-[0] mb-[10px] static hidden visible opacity-[1]">
                             <li class="relative"><a href="{{route('download',['type'=>'technicalDataSheet'])}}" class="font-Poppins leading-[28px] tracking-[0.03rem] transition-all duration-[0.3s] ease-in-out font-normal pl-[12px] text-[14px] text-[#777] mb-[0] capitalize block py-[12px]">Technical Data sheets</a></li>
                         </ul>
