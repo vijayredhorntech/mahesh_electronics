@@ -8,15 +8,15 @@
     <link rel="icon" type="image/x-icon" href="{{asset('assets/images/logo.png')}}">
 
     <!-- Meta Descriptions for SEO -->
-    <meta name="description" content="Refrigeration spare part dealers in Zirakpur, Chandigarh, Panchkula, Ambala, Ropar, Baddi, Solan">
-    <meta name="description" content="Refrigeration Compressor dealers in Zirakpur, Chandigarh, Panchkula, Ambala, Ropar, Baddi, Solan">
-    <meta name="description" content="AC part dealers in Zirakpur, Chandigarh, Panchkula, Ambala, Ropar, Baddi, Solan">
-    <meta name="description" content="Air conditioner parts dealers in Zirakpur, Chandigarh, Panchkula, Ambala, Ropar, Baddi, Solan">
-    <meta name="description" content="Refrigeration Genuine spare parts dealers in Zirakpur, Chandigarh, Panchkula, Ambala, Ropar, Baddi, Solan">
-    <meta name="description" content="Best air conditioner spare part dealers in Zirakpur, Chandigarh, Panchkula, Ambala, Ropar, Baddi, Solan">
-    <meta name="description" content="Window Split air conditioner spare part dealers in Zirakpur, Chandigarh, Panchkula, Ambala, Ropar, Baddi, Solan">
-    <meta name="description" content="Bitzer Compressor unit Mohali, Zirakpur, Chandigarh, Panchkula, Ambala, Ropar, Baddi, Solan">
-    <meta name="description" content="Copeland Compressor unit Mohali, Zirakpur, Chandigarh, Panchkula, Ambala, Ropar, Baddi, Solan">
+    <meta name="title" content="Refrigeration spare part dealers in Zirakpur, Chandigarh, Panchkula, Ambala, Ropar, Baddi, Solan">
+    <meta name="title" content="Refrigeration Compressor dealers in Zirakpur, Chandigarh, Panchkula, Ambala, Ropar, Baddi, Solan">
+    <meta name="title" content="AC part dealers in Zirakpur, Chandigarh, Panchkula, Ambala, Ropar, Baddi, Solan">
+    <meta name="title" content="Air conditioner parts dealers in Zirakpur, Chandigarh, Panchkula, Ambala, Ropar, Baddi, Solan">
+    <meta name="title" content="Refrigeration Genuine spare parts dealers in Zirakpur, Chandigarh, Panchkula, Ambala, Ropar, Baddi, Solan">
+    <meta name="title" content="Best air conditioner spare part dealers in Zirakpur, Chandigarh, Panchkula, Ambala, Ropar, Baddi, Solan">
+    <meta name="title" content="Window Split air conditioner spare part dealers in Zirakpur, Chandigarh, Panchkula, Ambala, Ropar, Baddi, Solan">
+    <meta name="title" content="Bitzer Compressor unit Mohali, Zirakpur, Chandigarh, Panchkula, Ambala, Ropar, Baddi, Solan">
+    <meta name="title" content="Copeland Compressor unit Mohali, Zirakpur, Chandigarh, Panchkula, Ambala, Ropar, Baddi, Solan">
     <meta name="description" content="Refrigeration gas, copper pipe, fitting, oil, temperature controller, flow switch, insulation dealers in Zirakpur, Chandigarh, Panchkula, Ambala, Ropar, Baddi, Solan">
 
     <!-- Fonts -->

@@ -29,7 +29,7 @@
                                 <div class="bb-header-buttons h-full w-full flex justify-between items-center">
                                     <a href="javascript:void(0)" class="bb-toggle-menu hidden max-[991px]:flex max-[991px]:ml-[20px]">
                                         <div class="header-icon">
-                                            <img src="{{asset('assets/images/footerLogo.png')}}" class="w-[100px]" alt="">
+                                            <img src="{{asset('assets/images/footerLogo.png')}}" class="w-[100px]" alt="footer_logo">
                                         </div>
                                     </a>
                                     <form class="bb-btn-group-form   hidden max-[991px]:flex relative max-[991px]:ml-[20px] max-[767px]:m-[0]" action="#">

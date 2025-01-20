@@ -7,37 +7,20 @@
                 <div class="w-full">
                     <div class="hero-slider swiper-container">
                         <div class="swiper-wrapper">
-{{--                            <div class="swiper-slide slide-1">--}}
-{{--                                <div class="flex flex-wrap w-full mb-[-24px]">--}}
-{{--                                    <div class="min-[992px]:w-[60%] w-full px-[12px] min-[992px]:order-1 order-1 mb-[24px]">--}}
-{{--                                        <div class="hero-contact h-full flex flex-col items-start justify-center max-[991px]:items-center ">--}}
-{{--                                            <p class="mb-[20px] font-Poppins text-[18px] text-[#777] font-light leading-[28px] tracking-[0.03rem] max-[1199px]:mb-[10px] max-[1199px]:text-[16px] text-center ">Professional Solution for Commercial Refrigeration and Air Conditioning</p>--}}
-{{--                                            <h1 class="mb-[20px] font-quicksand text-[50px] text-[#3d4750] font-bold tracking-[0.03rem] leading-[1.2] max-[1199px]:mb-[10px] max-[1199px]:text-[38px] max-[991px]:text-center max-[991px]:text-[45px] max-[767px]:text-[40px] max-[575px]:text-[35px] max-[420px]:text-[30px] max-[360px]:text-[28px]"> <span class="relative text-primary">Mahesh Refrigeration Company</span><br> </h1>--}}
-{{--                                            <a href="{{route('contactUs')}}" class="bb-btn-1 transition-all duration-[0.3s] ease-in-out font-Poppins leading-[28px] tracking-[0.03rem] py-[8px] px-[20px] text-[14px] font-normal text-[#3d4750] bg-transparent rounded-[10px] border-[1px] border-solid border-[#3d4750] max-[1199px]:py-[3px] max-[1199px]:px-[15px] hover:bg-primary hover:border-primary hover:text-[#fff]">CALL BACK REQUEST</a>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                    <div class="min-[992px]:w-[40%] w-full px-[12px] py-12 min-[992px]:order-1 order-1 mb-[24px]">--}}
-{{--                                        <div class="hero-image pr-[50px] relative max-[991px]:px-[50px] max-[575px]:px-[30px] flex justify-center max-[420px]:p-[0]">--}}
-{{--                                            <img src="{{asset('assets/images/products/condensingUnit/bitzer.png')}}" alt="hero" class="w-auto lg:h-[400px] md:h-[400px] h-[300px] opacity-[1] max-[1199px]:pr-[30px] max-[991px]:pr-[0]">--}}
-
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
                             <div class="swiper-slide slide-1">
-                                    <img src="{{asset('assets/images/banner/1.png')}}" alt="" class="h-auto w-full">
+                                    <img src="{{asset('assets/images/banner/1.png')}}" alt="banner image 1" class="h-auto w-full">
                             </div>
                             <div class="swiper-slide slide-2">
-                                    <img src="{{asset('assets/images/banner/2.png')}}" alt="" class="h-auto w-full">
+                                    <img src="{{asset('assets/images/banner/2.png')}}" alt="banner image 2" class="h-auto w-full">
                             </div>
                             <div class="swiper-slide slide-2">
-                                    <img src="{{asset('assets/images/banner/3.png')}}" alt="" class="h-auto w-full">
+                                    <img src="{{asset('assets/images/banner/3.png')}}" alt="banner image 3" class="h-auto w-full">
                             </div>
                             <div class="swiper-slide slide-2">
-                                    <img src="{{asset('assets/images/banner/4.png')}}" alt="" class="h-auto w-full">
+                                    <img src="{{asset('assets/images/banner/4.png')}}" alt="banner image 4" class="h-auto w-full">
                             </div>
                             <div class="swiper-slide slide-2">
-                                    <img src="{{asset('assets/images/banner/5.png')}}" alt="" class="h-auto w-full">
+                                    <img src="{{asset('assets/images/banner/5.png')}}" alt="banner image 5" class="h-auto w-full">
                             </div>
 
                         </div>
@@ -58,7 +41,7 @@
                 <div class="w-full px-[12px]">
                     <div class="section-title text-center mb-[20px] pb-[20px] z-[5] relative flex justify-center max-[991px]:pb-[0]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                         <div class="section-detail max-[991px]:mb-[12px]">
-                            <h2 class="bb-title font-quicksand mb-[0] p-[0] text-[25px] font-bold text-[#fff] relative inline capitalize leading-[1] tracking-[0.03rem] max-[767px]:text-[23px]">Our <span class="text-primary">Services</span></h2>
+                            <h1 class="bb-title font-quicksand mb-[0] p-[0] text-[25px] font-bold text-[#fff] relative inline capitalize leading-[1] tracking-[0.03rem] max-[767px]:text-[23px]">Our <span class="text-primary">Services</span></h1>
                             <p class="font-Poppins max-w-[400px] mt-[10px] text-[14px] text-[#fff]/80 leading-[18px] font-light tracking-[0.03rem] max-[991px]:mx-[auto]">Customer service should not be a department. It should be the entire company.</p>
                         </div>
                     </div>
@@ -144,7 +127,7 @@
                                         <p class="font-Poppins font-light tracking-[0.03rem] text-[14px] leading-[18px] text-[#686e7d] mb-[0] text-center">Carrier solutions inspire confidence in everyday life and the things that matter to our customers. We keep people safe, comfortable and in control of home health. We help optimize buildings for energy efficiency and to benefit the people inside. And we support our customers in preserving food and medicine as they make their way to people across the globe.</p>
                                     </div>
                                     <div class="inner-text">
-                                        <img src="{{asset('assets/images/products/condensingUnit/carrier.jpg')}}" alt="blog-1" class="w-auto mx-auto h-[100px] rounded-tl-[20px] rounded-tr-[20px]">
+                                        <img src="{{asset('assets/images/products/condensingUnit/carrier.jpg')}}" alt="blog-4" class="w-auto mx-auto h-[100px] rounded-tl-[20px] rounded-tr-[20px]">
                                     </div>
                                 </div>
                             </div>
@@ -157,7 +140,7 @@
                                         <p class="font-Poppins font-light tracking-[0.03rem] text-[14px] leading-[18px] text-[#686e7d] mb-[0] text-center">At Copeland, our industry-leading heating, air conditioning and refrigeration technologies create comfortable residential and commercial environments, maintain the integrity of goods throughout the cold chain, and improve operational and energy efficiencies to make life easier.</p>
                                     </div>
                                     <div class="inner-text">
-                                        <img src="{{asset('assets/images/products/condensingUnit/copland.jpg')}}" alt="blog-1" class="w-auto mx-auto h-[100px] rounded-tl-[20px] rounded-tr-[20px]">
+                                        <img src="{{asset('assets/images/products/condensingUnit/copland.jpg')}}" alt="blog-5" class="w-auto mx-auto h-[100px] rounded-tl-[20px] rounded-tr-[20px]">
                                     </div>
                                 </div>
                             </div>
@@ -170,7 +153,7 @@
                                         <p class="font-Poppins font-light tracking-[0.03rem] text-[14px] leading-[18px] text-[#686e7d] mb-[0] text-center">Or more than 85 years, the BITZER name has represented the highest quality, efficiency and reliability. BITZER is the only company to produce all three primary types of compressor: reciprocating, screw and scroll. And with its environmentally friendly solutions and innovative electronic products, BITZER is driving the refrigeration and air-conditioning industry around the world</p>
                                     </div>
                                     <div class="inner-text">
-                                        <img src="{{asset('assets/images/products/condensingUnit/bitzer.jpg')}}" alt="blog-1" class="w-auto mx-auto h-[100px] rounded-tl-[20px] rounded-tr-[20px]">
+                                        <img src="{{asset('assets/images/products/condensingUnit/bitzer.jpg')}}" alt="blog-6" class="w-auto mx-auto h-[100px] rounded-tl-[20px] rounded-tr-[20px]">
                                     </div>
                                 </div>
                             </div>
@@ -196,7 +179,7 @@
                     <div class="min-[992px]:w-[33.33%] min-[768px]:w-[50%] w-full px-[12px] mb-[24px]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                         <div class="bb-blog-card bg-[#f8f8fb] border-[1px] border-solid border-[#eee] rounded-[20px]">
                             <div class="blog-image">
-                                <img src="{{asset('assets/images/blogs/blog1.png')}}" alt="blog-1" class="w-full rounded-tl-[20px] rounded-tr-[20px]">
+                                <img src="{{asset('assets/images/blogs/blog1.png')}}" alt="blog-3" class="w-full rounded-tl-[20px] rounded-tr-[20px]">
                             </div>
                             <div class="blog-contact p-[20px]">
 
@@ -226,7 +209,7 @@
                     <div class="min-[992px]:w-[33.33%] min-[768px]:w-[50%] w-full px-[12px] mb-[24px]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                         <div class="bb-blog-card bg-[#f8f8fb] border-[1px] border-solid border-[#eee] rounded-[20px]">
                             <div class="blog-image">
-                                <img src="{{asset('assets/images/blogs/blog1.png')}}" alt="blog-1" class="w-full rounded-tl-[20px] rounded-tr-[20px]">
+                                <img src="{{asset('assets/images/blogs/blog1.png')}}" alt="blog-2" class="w-full rounded-tl-[20px] rounded-tr-[20px]">
                             </div>
                             <div class="blog-contact p-[20px]">
 
